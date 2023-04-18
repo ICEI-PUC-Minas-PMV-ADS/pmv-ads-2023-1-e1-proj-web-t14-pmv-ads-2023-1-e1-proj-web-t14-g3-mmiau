@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# MEU MIAU
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`SEMESTRE 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Meu Miau é uma aplicação web para adoção de gatos, utilizando recursos tecnológicos para promover a adoção responsável e consciente desses animais, para reduzir o número de gatos em situação de rua, garantir o bem-estar desses animais e evitar que sejam abandonados novamente.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Marcio Antônio Ferreira Lima Filho
+* Emile Muniz Ramos
+* Gustavo Henrique de Sá Lima
+* Vitor Oliveira Bernardes
+* Igor da Conceição Coelho
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
