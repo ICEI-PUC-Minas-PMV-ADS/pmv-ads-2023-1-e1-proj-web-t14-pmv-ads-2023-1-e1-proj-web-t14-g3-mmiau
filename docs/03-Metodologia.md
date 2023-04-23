@@ -23,14 +23,15 @@ O Scrum divide o projeto em sprints, ou ciclos de desenvolvimento, que duram em 
 Com base nessa metodologia, a equipe foi organizada e atribuída às seguintes funções e responsabilidades:
 
 > Scrum Master: 
-> - Marcio Filho
+  > Marcio Filho
 > Product Owner: 
-> - Emile Ramos
+  > Emile Ramos
 > Desenvolvedores:
-> - Vitor Bernardes
-> - Gustavo Lima
+  > Vitor Bernardes
+  > Gustavo Lima
 > Equipe de Design:
-> - Igor Coelho
+  > Igor Coelho
+
 
 Para gerenciar o projeto, a equipe utilizará um quadro Kanban, desse modo todos os membros da equipe podem acompanhar o progresso das atividades de forma visual e em tempo real. O quadro Kanban será implementado a partir da plataforma Trello, estruturado com as seguintes listas:
 
