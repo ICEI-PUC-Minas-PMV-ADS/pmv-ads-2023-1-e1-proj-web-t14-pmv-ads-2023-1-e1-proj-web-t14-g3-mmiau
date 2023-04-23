@@ -13,7 +13,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 | --- | --- | --- |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
 | Documentos do projeto | Google Drive | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
-| Projeto de Inteface e Wireframes | MarvelApp <br /> Figma | - |
+| Projeto de Inteface e Wireframes | MarvelApp <br /> Figma | Em desenvolvimento |
 | Gerenciamento do Projeto | Trello | https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau |
 
 
@@ -35,7 +35,8 @@ Para gerenciar o projeto, a equipe utilizará um quadro Kanban, desse modo todos
 - Doing: agrupa as tarefas iniciadas e em curso durante a sprint
 - Done: contém a relação de tarefas finalizadas, prontas para serem entregues, e que não necessitam revisões.
 
-A visualização completa do kanban criado pela equipe, na ferramenta de gerenciamento de projetos Trello, está disponível por meio da URL: https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau. A imagem a seguir mostra o quadro em seu estado atual:
+A visualização completa do kanban criado pela equipe, na ferramenta de gerenciamento de projetos Trello, está disponível por meio da URL: https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau. 
+A imagem a seguir mostra o quadro em seu estado atual:
 
 ![kanban_trello](https://user-images.githubusercontent.com/44280078/233848258-f87db172-cac7-4679-a21a-2db8bad9c570.png)
 
