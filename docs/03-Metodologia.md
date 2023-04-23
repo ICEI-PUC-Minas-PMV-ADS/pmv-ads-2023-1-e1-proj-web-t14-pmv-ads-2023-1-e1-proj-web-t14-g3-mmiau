@@ -42,4 +42,5 @@ Para gerenciar o projeto, a equipe utilizará um quadro Kanban, desse modo todos
 
 A visualização completa do kanban criado pela equipe, na ferramenta de gerenciamento de projetos Trello, está disponível por meio da URL: https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau. A imagem a seguir mostra o quadro em seu estado atual:
 
+![kanban_trello](https://user-images.githubusercontent.com/44280078/233848258-f87db172-cac7-4679-a21a-2db8bad9c570.png)
 
