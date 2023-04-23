@@ -1,46 +1,32 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A presença crescente de animais em situação de rua é um problema constante nas áreas urbanas, e os gatos são os animais que mais sofrem com essa realidade. De acordo com a ONG Anjos de Patas, a cada 10 animais que vivem nas ruas, 7 são gatos.
+Esses felinos muitas vezes são abandonados ou nascem nas ruas, e sua sobrevivência é bastante difícil, por não obterem a nutrição inadequada, pela falta de cuidados veterinários, bem como a exposição a perigos que podem causar sua morte.
+Além disso, a presença de animais de rua pode gerar conflitos com moradores e causar problemas de saúde pública. Portanto, torna-se necessária a criação de um sistema eficiente o qual possibilite a esses animais encontrar um lar amoroso e permanente.
+Nesse sentido, propõe-se a criação de uma aplicação web para adoção de gatos, utilizando recursos tecnológicos para promover a adoção responsável e consciente desses animais, de forma a reduzir o número de gatos em situação de rua, garantir o bem-estar desses animais e evitar que sejam abandonados novamente.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema que se busca solucionar neste projeto é a falta de um sistema eficiente que ajude a promover o bem-estar dos gatos em situação de rua, os quais demandam cuidados constantes e um lar amoroso, conectando-os às  pessoas interessadas em adotá-los.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é desenvolver uma aplicação web para adoção de gatos, que seja capaz de facilitar o processo de adoção, conectando as pessoas interessadas em adotar aos animais em situação de rua que precisam de um lar. Além disso, o site também tem como objetivo alertar as pessoas sobre a importância da adoção responsável, bem como capacitá-las com orientações sobre pré-requisitos para adoção e cuidados com o felino, a fim de evitar a reincidência do abandono.
+ Como objetivos específico, podemos citar:
+●	 Desenvolver uma plataforma web intuitiva e fácil de usar para conectar pessoas interessadas em adotar gatos com os animais que mais se adequem ao perfil e estilo de vida do adotante;
+●	Criar uma interface amigável para os usuários poderem buscar, filtrar e visualizar informações sobre os gatos disponíveis para adoção;
+●	Oferecer suporte para a adoção responsável de gatos, incluindo informações sobre cuidados básicos, saúde e comportamento animal;
+●	Possibilitar e incentivar a doação (contribuição financeira, alimentos e outros suprimentos) para organizações que cuidam de animais em situação de rua;
+●	 Conscientizar a população sobre a importância da adoção de animais abandonados e de rua.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com um estudo realizado por Domingues et al. (2018), muitas pessoas não sabem onde encontrar um gato para adoção, como cuidar de um gato ou como ajudar um animal em situação de rua. O estudo, que foi realizado com 300 pessoas em uma cidade do interior de São Paulo, revelou que cerca de 60% dos participantes não sabiam onde procurar por gatos para adoção, e aproximadamente 40% afirmaram não saber como cuidar adequadamente desses animais. Além disso, cerca de 80% dos participantes desconheciam como ajudar um animal em situação de rua. 
+Esses dados são alarmantes, e demonstram o quanto a falta de informação pode dificultar a adoção de animais e contribuir para o aumento do número de animais em situação de rua. Por isso, é importante que iniciativas como a criação de um site para adoção de gatos sejam desenvolvidas e amplamente divulgadas à população.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público alvo deste projeto consiste em: pessoas que procuram adotar um gato e voluntários que querem apadrinhar um dos bichanos, pet shops, clínicas veterinárias, ONGs e instituições que promovam campanhas de abrigo animal, interessadas em compartilhar gatos disponíveis para adoção.
+Em suma, o público-alvo deste projeto é amplo e pode incluir pessoas de diferentes idades, estilos de vida e preferências, bem como instituições /organizações que apoiam a causa. O importante é que essas pessoas estejam dispostas a cuidar de um animal de estimação e oferecer-lhe um lar amoroso e responsável.
