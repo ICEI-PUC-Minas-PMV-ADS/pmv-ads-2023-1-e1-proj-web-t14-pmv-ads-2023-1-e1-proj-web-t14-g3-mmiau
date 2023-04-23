@@ -11,10 +11,10 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 | Ambiente | Plataforma | Link de Acesso |
 | --- | --- | --- |
-| Repositório de código fonte | GitHub | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau) |
-| Documentos do projeto | Google Drive | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau) |
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
+| Documentos do projeto | Google Drive | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
 | Projeto de Inteface e Wireframes | MarvelApp <br /> Figma | - |
-| Gerenciamento do Projeto | Trello | (https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau) |
+| Gerenciamento do Projeto | Trello | https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau |
 
 
 
@@ -22,15 +22,10 @@ Para o desenvolvimento do projeto, o time optou por utilizar o Scrum, uma metodo
 O Scrum divide o projeto em sprints, ou ciclos de desenvolvimento, que duram em torno de 2 a 4 semanas, e durante cada sprint, a equipe se concentra em completar um conjunto específico de funcionalidades. Neste projeto, as sprints são representadas por etapas de 1 a 5, cujas entregas e prazos foram especificadas pela coordenação da disciplina.
 Com base nessa metodologia, a equipe foi organizada e atribuída às seguintes funções e responsabilidades:
 
-- Scrum Master: 
-  - Marcio Filho
-- Product Owner: 
-  - Emile Ramos
-- Desenvolvedores:
-  - Vitor Bernardes
-  - Gustavo Lima
-- Equipe de Design:
-  - Igor Coelho
+- Scrum Master: Marcio Filho
+- Product Owner: Emile Ramos
+- Desenvolvedores: Vitor Bernardes, Gustavo Lima
+- Equipe de Design: Igor Coelho
 
 
 Para gerenciar o projeto, a equipe utilizará um quadro Kanban, desse modo todos os membros da equipe podem acompanhar o progresso das atividades de forma visual e em tempo real. O quadro Kanban será implementado a partir da plataforma Trello, estruturado com as seguintes listas:
