@@ -13,11 +13,11 @@ O problema que se busca solucionar neste projeto é a falta de um sistema eficie
 
 O objetivo geral deste projeto é desenvolver uma aplicação web para adoção de gatos, que seja capaz de facilitar o processo de adoção, conectando as pessoas interessadas em adotar aos animais em situação de rua que precisam de um lar. Além disso, o site também tem como objetivo alertar as pessoas sobre a importância da adoção responsável, bem como capacitá-las com orientações sobre pré-requisitos para adoção e cuidados com o felino, a fim de evitar a reincidência do abandono.
  Como objetivos específico, podemos citar:
-●	 Desenvolver uma plataforma web intuitiva e fácil de usar para conectar pessoas interessadas em adotar gatos com os animais que mais se adequem ao perfil e estilo de vida do adotante;
-●	Criar uma interface amigável para os usuários poderem buscar, filtrar e visualizar informações sobre os gatos disponíveis para adoção;
-●	Oferecer suporte para a adoção responsável de gatos, incluindo informações sobre cuidados básicos, saúde e comportamento animal;
-●	Possibilitar e incentivar a doação (contribuição financeira, alimentos e outros suprimentos) para organizações que cuidam de animais em situação de rua;
-●	 Conscientizar a população sobre a importância da adoção de animais abandonados e de rua.
+ - Desenvolver uma plataforma web intuitiva e fácil de usar para conectar pessoas interessadas em adotar gatos com os animais que mais se adequem ao perfil e estilo de vida do adotante;
+ - Criar uma interface amigável para os usuários poderem buscar, filtrar e visualizar informações sobre os gatos disponíveis para adoção;
+ - Oferecer suporte para a adoção responsável de gatos, incluindo informações sobre cuidados básicos, saúde e comportamento animal;
+ - Possibilitar e incentivar a doação (contribuição financeira, alimentos e outros suprimentos) para organizações que cuidam de animais em situação de rua;
+ - Conscientizar a população sobre a importância da adoção de animais abandonados e de rua.
 
 
 ## Justificativa
