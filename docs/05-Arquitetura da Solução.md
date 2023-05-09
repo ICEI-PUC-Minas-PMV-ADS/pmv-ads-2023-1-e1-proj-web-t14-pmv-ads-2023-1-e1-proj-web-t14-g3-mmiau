@@ -12,7 +12,7 @@ Exemplo:
 
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
-![Diagrama de Componentes](img/componentes.png)
+<center><img src="https://user-images.githubusercontent.com/131212345/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.PNG"></center>
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
@@ -55,8 +55,11 @@ escolher salvar ou deletar o post. Em ambos os casos o status é
 notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow]
 
+## Diagrama de classes
+
+<img src="https://user-images.githubusercontent.com/131212345/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
 
 ## Tecnologias Utilizadas
 
