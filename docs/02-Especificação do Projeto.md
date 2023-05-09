@@ -66,9 +66,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID| Descrição do Requisito  |
 |---|---|
 |RN-001|	Para poder se cadastrar, o usuário deverá ser maior de idade, possuir CPF e residir em Belo Horizonte e região metropolitana|
-|RN-002|	O usuário só poderá cadastrar 3 (três) gatos simultaneamente. Os gatos cadastrados por usuários só serão anunciados para adoção mediante preenchimento completo e aprovação do formulário de anúncio de gatos|
+|RN-002|	Os gatos cadastrados por usuários só serão anunciados para adoção mediante preenchimento completo e aprovação do formulário de anúncio de gatos|
 |RN-003|	Para adotar um gato, é necessário que o adotante seja um usuário cadastrado no site|
-|RN-004|	O gato só será reservado ao adotante, após este preencher o formulário de adoção, para avaliação pelo administrador do projeto|
+|RN-004|	O gato só será reservado ao adotante após este preencher o formulário de adoção, para avaliação pelo administrador do projeto|
 |RN-005|	A adoção será confirmada somente após a aprovação do formulário de adoção|
 |RN-006|	Caso o formulário de adoção seja reprovado por não cumprir os requisitos para adoção, a reserva do animal será cancelada|
 |RN-007|	Após submissão dos formulários, toda a comunicação com o adotante será realizada via e-mail
