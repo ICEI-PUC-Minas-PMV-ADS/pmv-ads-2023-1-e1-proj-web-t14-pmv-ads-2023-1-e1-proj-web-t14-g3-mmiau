@@ -63,23 +63,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Requisitos de domínio de negócio
 
-|ID     | Descrição do Requisito  |
+|ID| Descrição do Requisito  |
 |---|---|
 |RN-001|	Para poder se cadastrar, o usuário deverá ser maior de idade, possuir CPF e residir em Belo Horizonte e região metropolitana|
 |RN-002|	O usuário só poderá cadastrar 3 (três) gatos simultaneamente. Os gatos cadastrados por usuários só serão anunciados para adoção mediante preenchimento completo e aprovação do formulário de anúncio de gatos|
-|RN-003|	O usuário só poderá cadastrar 3 (três) gatos simultaneamente. Os gatos cadastrados por usuários só serão anunciados para adoção mediante preenchimento completo e aprovação do formulário de anúncio de gatos|
-|RN-004|	Para adotar um gato, é necessário que o adotante seja um usuário cadastrado no site|
-|RN-005|	O gato só será reservado ao adotante, após este preencher o formulário de adoção, para avaliação pelo administrador do projeto|
-|RN-006|	A adoção será confirmada somente após a aprovação do formulário de adoção|
-|RN-007|	Caso o formulário de adoção seja reprovado por não cumprir os requisitos para adoção, a reserva do animal será cancelada|
-|RN-008|	Após submissão dos formulários, toda a comunicação com o adotante será realizada via e-mail
-|RN-009| No ato da entrega, o voluntário do projeto realizará a inspeção no ambiente, a fim de validar as respostas do formulário de adoção e se certificar de que o animal estará seguro|
-|RN-010|	O animal só será entregue ao adotante após a aprovação da inspeção do voluntário do projeto|
-|RN-011|	A adoção só será considerada efetivada após a entrega do animal pelo voluntário do projeto|
-|RN-012| O mesmo adotante não poderá reservar mais que 3 (três) gatos simultaneamente|
-|RN-013|	O tempo de avaliação dos formulários é de até 7 dias úteis|
-|RN-014|	As doações deverão ser realizadas somente via PIX, conforme chave pix divulgada na seção específica do site. É de inteira responsabilidade do doador a garantia de que os dados da transação estejam corretos|
-|RN-015|	O valor doado não poderá ser devolvido após a efetivação do pagamento|
+|RN-003|	Para adotar um gato, é necessário que o adotante seja um usuário cadastrado no site|
+|RN-004|	O gato só será reservado ao adotante, após este preencher o formulário de adoção, para avaliação pelo administrador do projeto|
+|RN-005|	A adoção será confirmada somente após a aprovação do formulário de adoção|
+|RN-006|	Caso o formulário de adoção seja reprovado por não cumprir os requisitos para adoção, a reserva do animal será cancelada|
+|RN-007|	Após submissão dos formulários, toda a comunicação com o adotante será realizada via e-mail
+|RN-008| No ato da entrega, o voluntário do projeto realizará a inspeção no ambiente, a fim de validar as respostas do formulário de adoção e se certificar de que o animal estará seguro|
+|RN-009|	O animal só será entregue ao adotante após a aprovação da inspeção do voluntário do projeto|
+|RN-010|	A adoção só será considerada efetivada após a entrega do animal pelo voluntário do projeto|
+|RN-011| O mesmo adotante não poderá reservar mais que 3 (três) gatos simultaneamente|
+|RN-012|	O tempo de avaliação dos formulários é de até 7 dias úteis|
+|RN-013|	As doações deverão ser realizadas somente via PIX, conforme chave pix divulgada na seção específica do site. É de inteira responsabilidade do doador a garantia de que os dados da transação estejam corretos|
+|RN-014|	O valor doado não poderá ser devolvido após a efetivação do pagamento|
 
 
 ## Restrições
