@@ -18,22 +18,28 @@
             text-align: start;
             height: 20px;
         }
+
         h1 {
             margin: 0;
             font-size: 28px;
         }
-        .container {
-            max-width: 800px;
-            margin: auto auto;
-            padding: 10%;
-        }
-
+        
         h2 {
             text-align: center;
         }
 
+        h3 {
+            text-align: center; 
+        }
+        
         p{
             text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            height: auto;
+            margin: auto auto;
+            padding: 20px;
         }
 
         .box-logo{
@@ -68,6 +74,18 @@
             text-decoration: none;
             color: #070101;
         }
+        .minhaarea-top {
+            width: 800px;
+            height: auto;
+            float: top;
+            padding: 0px;
+            border: auto;
+            margin: 0px;  
+        }
+
+        .minhaarea-third :hover { /*referente ao link quando o usuário passar o mouse no menu */
+            color: #ffffff;
+        }
 
         .minhaarea-third {
             width: 200px;
@@ -93,7 +111,9 @@
 <body>
     <header>
         <div class="box-logo">
-            <h1>Meu Miau</h1>
+            <a href="#index.html">
+                <h1>Meu Miau</h1>
+            </a>
         </div>        
         <nav>
             <ul>
@@ -110,17 +130,22 @@
     </header>
       
     <div class="container">
-        <div class="minhaarea-third">
-            <a href="#minha-conta.html"><h2>Minha conta</h2></a>
-            <p>Configurações de conta</p>
+        <div class="minhaarea-top">
+            <h2>Minha Área</h2>
         </div>
-        <div class="minhaarea-third">
-            <a href="#minhas-reservas.html"><h2>Minhas reservas</h2></a>
-            <p>Acesse seus gatinhos na fila para adoção</p>
-        </div>
-        <div class="minhaarea-third">
-            <a href="#minhas-adocoes.html"><h2>Minhas adoções</h2></a>
-            <p>Confira seus gatinhos adotados conosco</p>
+        <div>
+            <div class="minhaarea-third">
+                <a href="#minha-conta.html"><h3>Minha conta</h3></a>
+                <p>Configurações de conta</p>
+            </div>
+            <div class="minhaarea-third">
+                <a href="#minhas-reservas.html"><h3>Minhas reservas</h3></a>
+                <p>Acesse seus gatinhos na fila para adoção</p>
+            </div>
+            <div class="minhaarea-third">
+                <a href="#minhas-adocoes.html"><h3>Minhas adoções</h3></a>
+                <p>Confira seus gatinhos adotados conosco</p>
+            </div>
         </div>
     </div>
 </body>
