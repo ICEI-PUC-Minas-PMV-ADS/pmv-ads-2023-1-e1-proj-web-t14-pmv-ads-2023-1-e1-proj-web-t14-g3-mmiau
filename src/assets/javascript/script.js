@@ -3,7 +3,7 @@ openMenu.addEventlistener('click', () => {
 
     menu.style.right = (menu.offsetWidth * -1) + 'px'
 
-    menu.style.display = 'none'
+    openMenu.style.display = 'none'
 
     setTimeout(() => {
         menu.style.opacity = '1'
