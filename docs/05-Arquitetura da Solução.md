@@ -15,17 +15,18 @@ Exemplo:
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
 <center><img src="https://user-images.githubusercontent.com/131212345/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.PNG"></center>
-<center>Figura XX - Arquitetura da Solução</center>
+<center>Figura 01 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+
+## Client-side: 
+HTML, CSS e JavaScript, que são as tecnologias básicas para construir a interface do site e suas funcionalidades.
+
+## Server-side: 
+Para o servidor, pode-se utilizar o Node.js, que é uma plataforma JavaScript que permite a construção de servidores web escaláveis e de alto desempenho.
+
+## Banco de dados: 
+Para armazenar os dados do site, pode-se utilizar o MySQL, PostgreSQL ou MongoDB, que são bancos de dados populares e acessíveis. 
 
 > **Links Úteis**:
 >
