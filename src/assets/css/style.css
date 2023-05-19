@@ -52,22 +52,21 @@ body{
     flex-wrap: wrap;
     margin: 3px;
     flex: 1 1 100vw;
-    background-color: #38055a; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #041c49; /*cor fantasia apenas para visualizar os elementos*/
 }
 
 main{
     flex: 20 1 500px;
     background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
-    height: max-content;
     flex-wrap: wrap;
-}
-
-#main-content-wrap {
+    min-height: calc(100vh - 224px);
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+
 
 aside{ 
     flex: 1 1 200px;
