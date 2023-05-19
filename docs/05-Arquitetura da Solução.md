@@ -70,6 +70,7 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
+GITHUB PAGES!!!!!
 Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 > **Links Úteis**:
