@@ -10,7 +10,7 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-<img src=>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.png">
 <p> Figura 01 - Arquitetura da Solução </p>
 
 <h3> A solução implementada conta com os seguintes módulos: </h3>
