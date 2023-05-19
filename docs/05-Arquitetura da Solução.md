@@ -63,7 +63,7 @@ para a Tela 2.
 
 <h2> Tecnologias Utilizadas </h2>
  
- <img src= C:\Users\mizuq\Documents\GitHub\pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau\docs\img\Tecnologias.png>
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Tecnologias.png">
 
 
 <h2> Hospedagem: </h2>
