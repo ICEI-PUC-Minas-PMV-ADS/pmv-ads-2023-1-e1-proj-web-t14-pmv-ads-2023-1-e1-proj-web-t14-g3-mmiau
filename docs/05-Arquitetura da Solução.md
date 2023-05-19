@@ -1,19 +1,25 @@
-# Arquitetura da Solução
+<h1> Arquitetura da Solução </h1>
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
+<<<<<<< Updated upstream
 Alterei o texto da Arquitetura!!!! -marcio
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+=======
+Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
+>>>>>>> Stashed changes
 
-## Diagrama de componentes
+<h2> Diagrama de componentes </h2>
 
 Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
-Exemplo: 
+Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+<img src="C:\Users\mizuq\Documents\GitHub\pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau\docs\img\236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.png">>
+<p> Figura 01 - Arquitetura da Solução </p>
 
+<<<<<<< Updated upstream
 <center><img src="https://user-images.githubusercontent.com/131212345/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.PNG"></center>
 <center>Figura 01 - Arquitetura da Solução</center>
 
@@ -27,12 +33,27 @@ Para o servidor, pode-se utilizar o Node.js, que é uma plataforma JavaScript qu
 
 ## Banco de dados: 
 Para armazenar os dados do site, pode-se utilizar o MySQL, PostgreSQL ou MongoDB, que são bancos de dados populares e acessíveis. 
+=======
+<h3> A solução implementada conta com os seguintes módulos: </h3>
+
+<p> <strong> Client-side:</strong> HTML, CSS e JavaScript, que são as tecnologias básicas para construir a interface do site e suas funcionalidades. <break>
+
+<strong> Server-side: </strong> Para o servidor, pode-se utilizar o Node.js, que é uma plataforma JavaScript que permite a construção de servidores web escaláveis e de alto desempenho. <break>
+
+<strong> Banco de dados: </strong> Para armazenar os dados do site, pode-se utilizar o MySQL, PostgreSQL ou MongoDB, que são bancos de dados populares e acessíveis. <break>
+
+<strong> API's: </strong>
+APIs de redes sociais: como a API do Facebook, Twitter e Instagram. <break>
+APIs de e-mail: como o serviço de e-mails da Google (Gmail) ou Microsoft (Outlook). <break>
+API RESTful: para comunicação entre front-end e back-end.
+</p>
+>>>>>>> Stashed changes
 
 > **Links Úteis**:
 >
 > - [Whimsical](https://whimsical.com/)
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
@@ -58,18 +79,16 @@ escolher salvar ou deletar o post. Em ambos os casos o status é
 notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
-## Diagrama de classes
+<h2> Diagrama de Classes: </h2>
 
-<img src="https://user-images.githubusercontent.com/131212345/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
+<img src="C:\Users\mizuq\Documents\GitHub\pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau\docs\img\236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
 
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<h2> Tecnologias Utilizadas </h2>
+ 
+ <img src= C:\Users\mizuq\Documents\GitHub\pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau\docs\img\Tecnologias.png>
 
 
-## Hospedagem
+<h2> Hospedagem: </h2>
 
 GITHUB PAGES!!!!!
 Explique como a hospedagem e o lançamento da plataforma foi feita.
