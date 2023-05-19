@@ -11,17 +11,9 @@ header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
     margin: 3px;
 }
 
-body{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 3px;
-    flex: 1 1 100vw;
-    background-color: #0c1f22;
-}
-
 header{
     flex: 1 1 100vw;
-    background-color: #a1a1a1;
+    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
     height: 100px;
 }
 
@@ -45,7 +37,7 @@ header #logo{
 
 nav{
     flex: 1 1 100vw;
-    background-color: #a1a1a1;
+    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
     align-items: center;
     justify-content: flex-end;
 }
@@ -55,22 +47,37 @@ nav a {
     font-size: 12pt;
 }
 
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background-color: #38055a; /*cor fantasia apenas para visualizar os elementos*/
+}
+
 main{
     flex: 20 1 500px;
-    background-color: #a1a1a1;
-    height: calc(100vh - 224px);
+    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    height: max-content;
+    flex-wrap: wrap;
+}
 
+#main-content-wrap {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 aside{ 
     flex: 1 1 200px;
-    background-color: #a1a1a1;
+    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
     
 }
 
 footer{
     flex: 1 1 100vw;
-    background-color: #a1a1a1;
+    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
     height: 100px;
 }
 
@@ -81,7 +88,7 @@ a {
 
 @media only screen and (max-width: 923px){ /*implementando regra de dimensões para quando  main e aside não couberem na mesma linha*/
     main{
-        height: calc(100vh - 330px);
+        height: auto;
     }
     aside{
         flex: 1 1 100vw;
@@ -89,7 +96,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 717px){ /*implementando regra para recolher menu quando não couber na tela*/
+@media only screen and (max-width: 880px){ /*implementando regra para recolher menu quando não couber na tela*/
     #openMenu, #closeMenu{
         display: block;
 
