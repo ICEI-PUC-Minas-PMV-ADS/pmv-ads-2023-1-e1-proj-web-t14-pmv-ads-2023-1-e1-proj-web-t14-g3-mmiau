@@ -47,6 +47,10 @@ nav a {
     font-size: 12pt;
 }
 
+nav a:hover {
+    color: rgb(255, 238, 0);  /*cor fantasia apenas para visualizar os elementos*/
+}
+
 body{
     display: flex;
     flex-wrap: wrap;
