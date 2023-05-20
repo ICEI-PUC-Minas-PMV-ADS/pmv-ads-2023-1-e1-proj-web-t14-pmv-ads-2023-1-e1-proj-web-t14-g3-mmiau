@@ -57,9 +57,7 @@ nav {
 
 nav > a {
     display: flex;
-    margin: 3%;
-    height: 50px;
-    align-items: center;
+    margin: 20px;
     justify-content: center;
     font-size: 15px;
     transition-duration: .3s;
@@ -89,7 +87,7 @@ main {
 
 .main-title {
     text-align: start;
-    margin: 2%;
+    margin: 2%;;
 }
 
 .section-container {
