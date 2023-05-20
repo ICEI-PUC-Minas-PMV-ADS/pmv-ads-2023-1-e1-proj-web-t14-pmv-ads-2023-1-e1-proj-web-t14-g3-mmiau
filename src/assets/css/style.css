@@ -100,7 +100,7 @@ main {
     font-size: 18px;
     background-color: #fff;
     margin: 3px;
-    text-align: center; 
+    text-align: start; 
 
 
 }
@@ -110,7 +110,7 @@ main {
     margin: 3px;
     padding: 3px;    
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
 }
 
@@ -228,9 +228,14 @@ footer {
         opacity: 0;
         transition: 0.3s;
     }
+}
 
+
+@media only screen and (max-width: 700px){
     .section-content {
-        display: block;
-    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 }
