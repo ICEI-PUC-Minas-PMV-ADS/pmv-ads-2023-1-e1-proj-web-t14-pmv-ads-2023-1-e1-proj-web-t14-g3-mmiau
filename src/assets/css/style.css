@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgba(63, 38, 0, 0.658); 
+    color: rgb(151, 92, 3); 
 }
 
 body{
@@ -72,7 +72,7 @@ main{
 }
 
 .main-title {
-    text-align: start;
+    text-align: center;
 }
 
 .section-container {
@@ -83,10 +83,10 @@ main{
 
 
 .section-title{
-    font-size: 28px;
+    font-size: 18px;
     background-color: #fff;
     margin: 3px;
-    text-align: center; 
+    text-align: start; 
 
 
 }
@@ -141,12 +141,12 @@ a {
 }
 
 .elipse-btn:hover {
-    background-color: black;
+    color: rgb(255, 255, 255);
     border-radius: 4rem;
     min-width: 6.25rem ;
     height: 2.75rem;
     border-width: 0;
-    background-color: #6CD9D3;
+    background-color: #048a83;
     cursor: pointer;
 
 }
@@ -161,7 +161,7 @@ a {
 }
 
 .elipse-btn-dark:hover {
-    background-color: rgb(32, 14, 3, 0.8);
+    background-color: rgba(126, 50, 4, 0.8);
     color: #ffffff;
     border-radius: 4rem;
     min-width: 6.25rem ;
@@ -205,7 +205,7 @@ a {
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(108, 217, 211, 0.8);
         align-items: center;
         justify-content: center;
         margin: 0;
