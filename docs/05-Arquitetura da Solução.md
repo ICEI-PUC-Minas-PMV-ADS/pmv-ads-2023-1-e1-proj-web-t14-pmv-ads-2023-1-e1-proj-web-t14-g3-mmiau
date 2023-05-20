@@ -1,12 +1,12 @@
 <head>
- <h1 align="center"> Arquitetura da Solução </h1>
+ <h1> Arquitetura da Solução </h1>
  <hr>
 
   Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 </head>
 
 <body>
- <h2 align="center"> <strong> Diagrama de componentes </strong> </h2>
+ <h2> <strong> Diagrama de componentes </strong> </h2>
 
   Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
@@ -31,23 +31,23 @@ APIs de e-mail: como o serviço de e-mails da Google (Gmail) ou Microsoft (Outlo
 API RESTful: para comunicação entre front-end e back-end.
 </p>
 
- <h2 align="center"> <strong> Fluxo do Usuário: </strong> </h2>
+ <h2> <strong> Fluxo do Usuário: </strong> </h2>
 <p>   O fluxo do usuário foi estruturado para que as pessoas possam facilmente encontrar um gato para adotar ou anunciar e, ao mesmo tempo, entender o processo de adoção e interagir com o site. </p>
  <p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Fluxo%20de%20Telas%20do%20Usuario.jpg"> </p>
   <p align="center"> Figura 02 - Fluxo do Usuário </p>
  
- <h2 align="center"> <strong> Diagrama de Classes: </strong> </h2>
+ <h2> <strong> Diagrama de Classes: </strong> </h2>
 
 <p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg"> </p>
  <p align="center"> Figura 03 - Diagrama de Classes </p>
 
- <h2 align="center"> <strong> Tecnologias Utilizadas: </strong> </h2>
+ <h2> <strong> Tecnologias Utilizadas: </strong> </h2>
  
 <p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Tecnologias.png"> </p>
  <p align="center"> Figura 04 - Tecnologias </p>
 
 
- <h2 align="center"> <strong> Hospedagem: </strong> </h2>
+ <h2> <strong> Hospedagem: </strong> </h2>
 
 GITHUB PAGES!!!!!
 Explique como a hospedagem e o lançamento da plataforma foi feita.
