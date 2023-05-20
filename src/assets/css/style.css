@@ -12,22 +12,32 @@ header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
     margin: 3px;
 }
 
-header{
+header {
     margin: 0;
     flex: 1 1 100vw;
     background-color: #6CD9D3;
     height: 100px;
 }
 
-header #logo{
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header > #logo {
+    display: flex;
     flex: 0 1 200px;
     height: 100px;
     background-color: #6CD9D3;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
 
 }
 
 
-#openMenu, #closeMenu{
+#openMenu, #closeMenu {
     border: none;
     background: none;
     font-size: 30px;
@@ -38,23 +48,28 @@ header #logo{
 
 }
 
-nav{
+nav {
     flex: 1 1 100vw;
     background-color: #6CD9D3;
     align-items: center;
     justify-content: flex-end;
 }
 
-nav a {
+nav > a {
+    display: flex;
     margin: 3%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
+    transition-duration: .3s;
 }
 
-nav a:hover {
-    color: rgb(151, 92, 3); 
+nav > a:hover {
+    color: rgb(151, 92, 3);
 }
 
-body{
+body {
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
@@ -63,7 +78,7 @@ body{
 
 }
 
-main{
+main {
     display: block;
     flex: 20 1 500px;
     background-color: #ffffff;
@@ -83,7 +98,7 @@ main{
 }
 
 
-.section-title{
+.section-title {
     font-size: 18px;
     background-color: #fff;
     margin: 3px;
@@ -101,7 +116,7 @@ main{
 
 }
 
-.cat-card{
+.cat-card {
     margin: 10px;
     background-color: #a1a1a15d;
     border-radius: 1.25rem;
@@ -112,7 +127,7 @@ main{
 
 
 
-aside{ 
+aside { 
     flex: 1 1 200px;
     background-color: #fff;
     align-items: center;
@@ -121,18 +136,13 @@ aside{
     margin-right: 10%;  
 }
 
-footer{
+footer {
     margin: 0;
     flex: 1 1 100vw;
     background-color: #6CD9D3;
     min-height: 500px;
     align-items: center;
     justify-content: center;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .elipse-btn {
@@ -142,6 +152,7 @@ a {
     height: 2.75rem;
     border-width: 0;
     color: black;
+    transition-duration: .3s;
 
 }
 
@@ -163,6 +174,7 @@ a {
     min-width: 6.25rem ;
     height: 2.75rem;
     border-width: 0;
+    transition-duration: .3s;
 }
 
 .elipse-btn-dark:hover {
@@ -176,11 +188,11 @@ a {
 }
 
 @media only screen and (max-width: 923px){ /*implementando regra de dimensões para quando  main e aside não couberem na mesma linha*/
-    main{
+    main {
         height: auto;
         margin-left: 0;
     }
-    aside{
+    aside {
         flex: 1 1 100vw;
         height: 100px;
         border-top: 3px solid #6cd9d460; /*linha de separação com o 'main'*/
