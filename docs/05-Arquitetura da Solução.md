@@ -1,6 +1,5 @@
 <head>
  <h1> Arquitetura da Solução </h1>
- <hr>
 
   Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 </head>
