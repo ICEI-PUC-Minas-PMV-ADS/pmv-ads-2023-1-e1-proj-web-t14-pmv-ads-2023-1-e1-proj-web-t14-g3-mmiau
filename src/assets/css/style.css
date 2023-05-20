@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
@@ -13,14 +14,15 @@ header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
 
 header{
     flex: 1 1 100vw;
-    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #6CD9D3;
     height: 100px;
 }
 
 header #logo{
     flex: 0 1 200px;
     height: 100px;
-    background-color: rgb(235, 235, 235);
+    background-color: #f3e34e;
+
 }
 
 
@@ -37,7 +39,7 @@ header #logo{
 
 nav{
     flex: 1 1 100vw;
-    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #6CD9D3;
     align-items: center;
     justify-content: flex-end;
 }
@@ -48,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 238, 0);  /*cor fantasia apenas para visualizar os elementos*/
+    color: rgba(63, 38, 0, 0.658); 
 }
 
 body{
@@ -56,12 +58,12 @@ body{
     flex-wrap: wrap;
     margin: 3px;
     flex: 1 1 100vw;
-    background-color: #041c49; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #ffffff;
 }
 
 main{
     flex: 20 1 500px;
-    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #ffffff;
     flex-wrap: wrap;
     min-height: calc(100vh - 224px);
     padding-left: 10%;
@@ -74,14 +76,18 @@ main{
 
 aside{ 
     flex: 1 1 200px;
-    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #6cd9d483;
+    align-items: center;
+    justify-content: center;
     
 }
 
 footer{
     flex: 1 1 100vw;
-    background-color: #a1a1a1; /*cor fantasia apenas para visualizar os elementos*/
+    background-color: #6CD9D3;
     height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
@@ -128,4 +134,8 @@ a {
         opacity: 0;
         transition: 0.3s;
     }
+}
+
+h1, h2{
+    text-align: center;
 }
