@@ -39,7 +39,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
-|---|---|---|
+|---|---|---|---|
 |RF-001|O sistema gerencia o cadastro de usuários	|ALTA| Emile |
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| Emile |
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| Márcio |
