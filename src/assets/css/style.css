@@ -1,6 +1,6 @@
 html, body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: 100%;
 }
@@ -10,11 +10,29 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin: auto;
 }
 
 h1 {
-    margin: 0;
+    margin: auto;
     color: rgb(37, 43, 58);
+}
+
+nav{
+    flex: 1 1 100vw;
+    background-color: #a1a1a1;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
 }
 
 .container-wrapper {
@@ -24,7 +42,6 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
-
 .container {
     width: 500px; /* largura do container */
     height: auto; /* altura do container */
@@ -37,23 +54,13 @@ h1 {
     min-height: calc(100% - 50px);
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    
-}
-
  /* Estilos CSS para o menu */
  .menu {
     display: none; /* oculta o menu por padrão */
 }
-
 .menu.active {
     display: block; /* exibe o menu quando ativado */
 }
-
 /* Estilos CSS para o botão de expansão */
 .menu-button {
     cursor: pointer;
@@ -66,9 +73,18 @@ footer {
     border-radius: 5px;
 }
 
-nav{
-    flex: 1 1 100vw;
-    background-color: #a1a1a1;
-    align-items: center;
-    justify-content: flex-end;
-}
+  /* Estilos CSS para o formulário */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+.form-group {
+    margin-bottom: 10px;
+  }
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
