@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main, aside, footer { /*Propriedades em comum agrupadas*/
+    display: flex;
+
+}
+
+header {
+    flex: 1 1 100vw;
+    background-color: #6CD9D3;
+    height: 100px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+header > #logo {
+    display: flex;
+    flex: 0 1 200px;
+    height: 100px;
+    background-color: #6CD9D3;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+nav {
+    background-color: #6CD9D3;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 100vw;
+    background-color: #ffffff;
+
+}
+
+main {
+    display: block;
+    flex: 20 1 500px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 224px);
+    margin-left: 10%;
+}
+
+.main-title {
+    text-align: start;
+    margin: 2%;;
+}
+
+.section-container {
+    margin: 3px;
+    padding: 3%;
+    background-color: #6cd9d460;
+}
+
+
+.section-title {
+    font-size: 18px;
+    background-color: #fff;
+    margin: 3px;
+    text-align: start; 
+
+
+}
+
+.section-content {
+    background-color: #fff;
+    margin: 3px;
+    padding: 3px;    
+    display: flex;
+    justify-content: start;
+
+}
+
+.cat-card {
+    margin: 10px;
+    background-color: #a1a1a15d;
+    border-radius: 1.25rem;
+    width: 200px;
+    height: 300px;
+    background-color: #6cd9d460;
+}
+
+
+
+aside { 
+    flex: 1 1 200px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-left: 3px solid #6cd9d460; /*linha de separação com o 'main'*/  
+    margin-right: 10%;  
+}
+
+footer {
+    margin: 0;
+    flex: 1 1 100vw;
+    background-color: #6CD9D3;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elipse-btn {
+    background-color: #fff;
+    border-radius: 4rem;
+    min-width: 6.25rem ;
+    height: 2.75rem;
+    border-width: 0;
+    color: black;
+    transition-duration: .3s;
+
+}
+
+.elipse-btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 4rem;
+    min-width: 6.25rem ;
+    height: 2.75rem;
+    border-width: 0;
+    background-color: #048a83;
+    cursor: pointer;
+
+}
+
+.elipse-btn-dark {
+    background-color: #200e03;
+    color: #ffffff;
+    border-radius: 4rem;
+    min-width: 6.25rem ;
+    height: 2.75rem;
+    border-width: 0;
+    transition-duration: .3s;
+}
+
+.elipse-btn-dark:hover {
+    background-color: rgba(126, 50, 4, 0.8);
+    color: #ffffff;
+    border-radius: 4rem;
+    min-width: 6.25rem ;
+    height: 2.75rem;
+    border-width: 0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 923px){ /*implementando regra de dimensões para quando  main e aside não couberem na mesma linha*/
+    main {
+        height: auto;
+        margin-left: 0;
+    }
+    aside {
+        flex: 1 1 100vw;
+        height: 100px;
+        border-top: 3px solid #6cd9d460; /*linha de separação com o 'main'*/
+        border-left: none;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 880px){ /*implementando regra para recolher menu quando não couber na tela*/
+    #menu.active, #menu{
+        display: block;
+
+    }
+
+    #menu.active {
+        margin-left: auto;
+    }
+
+    #menu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(108, 217, 211, 0.8);
+        
+        transition: 0.3s;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.container-wrapper {
+    display: flex; /* exibe os containers em linha */
+    justify-content: center; /* centraliza horizontalmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container {
+    width: 500px; /* largura do container */
+    height: auto; /* altura do container */
+    background-color:#c1d5da; /* cor de fundo do container */
+    margin: 0 100px; /* margem horizontal para espaçamento entre os containers */
+    padding: 20px; /* espaçamento interno */ 
+    border-radius: 5px;
+}
+.content {
+    min-height: calc(100% - 50px);
+}
+
+ /* Estilos CSS para o menu */
+ .menu {
+    display: none; /* oculta o menu por padrão */
+    position: relative;
+}
+.menu.active {
+    display: block; /* exibe o menu quando ativado */
+    float: right;
+    
+}
+/* Estilos CSS para o botão de expansão */
+.menu-button {
+    cursor: pointer;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background: none;
+    background-color: #8c8c8c;
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: bold;
+   
+    border: none;
+    border-radius: 5px;
+    
+    padding: 0px 5px;
+
+    float: right;
+}
+
+  

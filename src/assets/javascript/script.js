@@ -1,4 +1,4 @@
-
+// Script para funcionamento do menu
 document.addEventListener('DOMContentLoaded', function() {
     // Acessando elementos do HTML
     const menuButton = document.querySelector('.menu-button');
@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Elemento não encontrado!');
     }
   });
- // JavaScript para manipulação do formulário
+
+ // Script para manipulação do formulário
  document.getElementById('registrationForm').addEventListener('submit', function(event) {
   event.preventDefault(); // Evita o envio do formulário
 
@@ -34,5 +35,3 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('email').value = '';
   document.getElementById('password').value = '';
 });
-
-
