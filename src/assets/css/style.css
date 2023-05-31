@@ -114,6 +114,15 @@ main {
 
 }
 
+.formulario {
+    background-color: #fff;
+    margin: 3px;
+    padding: 3px;    
+    display: flexbox;
+    justify-content: start;
+
+}
+
 .cat-card {
     margin: 10px;
     background-color: #a1a1a15d;
