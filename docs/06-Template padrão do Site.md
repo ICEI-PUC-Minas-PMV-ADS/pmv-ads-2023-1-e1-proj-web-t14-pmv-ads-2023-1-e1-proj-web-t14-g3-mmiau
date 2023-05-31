@@ -5,7 +5,15 @@
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 <img src="img/tela01.png">
-![Tela inicial](img/tela01.png)
+<img src="img/tela02.png">
+<img src="img/tela03.png">
+<img src="img/tela04.png">
+<img src="img/tela05.png">
+<img src="img/tela06.png">
+<img src="img/tela07.png">
+<img src="img/tela08.png">
+<img src="img/tela09.png">
+
 
 > **Links Úteis**:
 >
