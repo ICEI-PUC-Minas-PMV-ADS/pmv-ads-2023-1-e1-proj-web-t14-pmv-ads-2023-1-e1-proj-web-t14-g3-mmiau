@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/script.js"></script> <!--retirado o js por enquanto-->
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
     <title>Anunciar</title>
 </head>
     <body>
@@ -28,113 +28,105 @@
             <div class="main-title">
                 <h1>Anunciar</h1>
             </div>
-            <div class="section-container">
-                <div class="section-title">
-                    <h2>Características</h2>
-                </div>
-                <div class="section-content">
-
-                    <div class="formulario">
-                        <div class="label-float">
-                            <label for="nome-gato">Nome</label>
-                            <input type="text" id="nome-gato" placeholder="" required> 
-                        </div>
-                        <div class="label-float">
-                            <label for="idade-gato">Idade</label>
-                            <select name="opcoes-idade-gato" id="idade-gato" required>
-                                <option value="campo-vazio"></option>
-                                <option value="adulto">adulto</option>
-                                <option value="filhote">filhote</option>
-                                <option value="nao-identificado">não identificado</option>                               
-                            </select>
-                        </div>
-                        <div class="label-float">
-                            <label for="raca-gato">Raça</label>
-                            <select name="opcoes-raca-gato" id="raca-gato" required>
-                                <option value="campo-vazio"></option>
-                                <option value="siames">siamês</option>
-                                <option value="ragdoll">ragdoll</option>
-                                <option value="srd">SRD</option>                               
-                            </select>
-                        </div>
-                        <div class="label-float">
-                            <label for="descricao-gato">Breve apresentação</label>
-                            <input type="text" id="descricao-gato" placeholder="" required> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="section-title">
-                    <h2>Saúde</h2>
-                </div>
-                <div class="section-content">
-                    <div class="formulario">
-                        <div class="label-float">
-                            <label for="castracao-gato">Castração</label>
-                            <select name="opcoes-castracao-gato" id="castracao-gato" required>
-                                <option value="campo-vazio"></option>
-                                <option value="adulto">castrado</option>
-                                <option value="filhote">não castrado</option>                            
-                            </select>
-                        </div>
-                        <div class="label-float">
-                            <fieldset>
-                                <legend>Vacinas</legend>
-                                <div>
-                                    <input type="checkbox" id="raiva" name="raiva">
-                                    <label for="raiva">raiva</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" id="v3" name="v3">
-                                    <label for="raiva">v3</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" id="v4" name="v4">
-                                    <label for="raiva">v4</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" id="v5" name="v5">
-                                    <label for="raiva">v5</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" id="nao-vacinado" name="nao-vacinado">
-                                    <label for="nao-vacinado">não vacinado</label>
-                                </div>
-                            </fieldset>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <form id="cadastro-gato">
                 <div class="section-container">
                     <div class="section-title">
-                            <h2>Fotos</h2>
-                        </div>
-                                <div class="label-float">
-                                    <label for="foto-gato">Fotos do gato</label>
-                                    <input type="file" id="foto-gato" placeholder="" required>
-                                </div>
-                                <div class="label-float">
-                                    <label for="foto-gato">Fotos do gato</label>
-                                    <input type="file" id="foto-gato" placeholder="" required>
-                                </div>
-                                <div class="label-float">
-                                    <label for="foto-gato">Fotos do gato</label>
-                                    <input type="file" id="foto-gato" placeholder="" required>
-                                </div>
-                                <div class="label-float">
-                                    <label for="foto-gato">Fotos do gato</label>
-                                    <input type="file" id="foto-gato" placeholder="" required>
-                                </div>
-                        <div>
-                            <button>Limpar</button>
-                            <button onclick="cadastrargato()" id="anunciar">Anunciar</button>
-                        </div>
-                        
+                        <h2>Características</h2>
+                    </div>
+                    <div class="section-content">
+                            <div class="label-float">
+                                <label for="nome-gato">Nome</label>
+                                <input type="text" id="nome-gato" placeholder="" required>
+                            </div>
+                            <div class="label-float">
+                                <label for="sexo-gato">Sexo</label>
+                                <select name="sexo-gato" id="sexo-gato" required>
+                                    <option value="campo-vazio"></option>
+                                    <option value="femea">fêmea</option>
+                                    <option value="macho">macho</option>
+                                </select>
+                            </div>
+                            <div class="label-float">
+                                <label for="idade-gato">Idade</label>
+                                <select name="idade-gato" id="idade-gato" required>
+                                    <option value="campo-vazio"></option>
+                                    <option value="adulto">adulto</option>
+                                    <option value="filhote">filhote</option>
+                                    <option value="nao-identificado">não identificado</option>
+                                </select>
+                            </div>
+                            <div class="label-float">
+                                <label for="raca-gato">Raça</label>
+                                <select name="raca-gato" id="raca-gato" required>
+                                    <option value="campo-vazio"></option>
+                                    <option value="siames">siamês</option>
+                                    <option value="ragdoll">ragdoll</option>
+                                    <option value="srd">SRD</option>
+                                </select>
+                            </div>
+                            <div class="label-float">
+                                <label for="descricao-gato">Breve apresentação</label>
+                                <input type="text" id="descricao-gato" placeholder="" required>
+                            </div>
                     </div>
                 </div>
-            </div>
+                <div class="section-container">
+                    <div class="section-title">
+                        <h2>Saúde</h2>
+                    </div>
+                    <div class="section-content">
+                            <div class="label-float">
+                                <label for="castracao-gato">Castração</label>
+                                <select name="castracao-gato" id="castracao-gato" required>
+                                    <option value="campo-vazio"></option>
+                                    <option value="adulto">castrado</option>
+                                    <option value="filhote">não castrado</option>
+                                </select>
+                            </div>
+                            <div class="label-float">
+                                <fieldset id="vacinas-gato">
+                                    <legend>Vacinas</legend>
+                                    <div>
+                                        <input type="checkbox" id="raiva" name="raiva">
+                                        <label for="raiva">raiva</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="v3" name="v3">
+                                        <label for="raiva">v3</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="v4" name="v4">
+                                        <label for="raiva">v4</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="v5" name="v5">
+                                        <label for="raiva">v5</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="nao-vacinado" name="nao-vacinado">
+                                        <label for="nao-vacinado">não vacinado</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                    </div>
+                </div>
+                    <div class="section-container">
+                        <div class="section-title">
+                            <h2>Fotos</h2>
+                            </div>
+                                <div class="label-float">
+                                    <label for="foto-gato">Foto do gato</label>
+                                    <input type="file" id="foto-gato" placeholder="" required>
+                                </div>
+                            </div>
+                            <div>
+                                <button>Limpar</button>
+                                <button type="sumbit" id="anunciar">Anunciar</button>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </form>
         </main>
         <aside> <!--info e links "laterais" relacionados ao conteudo principal-->
             Relacionado
