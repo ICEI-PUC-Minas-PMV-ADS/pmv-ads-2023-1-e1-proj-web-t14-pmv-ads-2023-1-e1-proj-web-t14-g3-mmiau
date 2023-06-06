@@ -105,7 +105,7 @@ main {
 .section-content {    
     margin: 3px;
     padding: 3px;    
-    display: flexbox;
+    display: inline-flex;
     justify-content: start;
 }
 
@@ -133,7 +133,7 @@ footer {
     margin: 0;
     flex: 1 1 100vw;
     background-color: #6CD9D3;
-    min-height: 500px;
+    min-height: 200px;
     align-items: center;
     justify-content: center;
 }
