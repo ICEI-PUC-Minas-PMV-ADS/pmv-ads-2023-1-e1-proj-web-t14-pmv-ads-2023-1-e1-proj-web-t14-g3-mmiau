@@ -70,8 +70,8 @@ nav > a:hover {
 .elipse-btn {
     background-color: #fff;
     border-radius: 4rem;
-    min-width: 10.25rem ;
-    height: 3.75rem;
+    min-width: 8rem ;
+    height: 3.25rem;
     border-width: 0;
     color: black;
     transition-duration: .3s;
@@ -90,8 +90,8 @@ nav > a:hover {
     background-color: #200e03;
     color: #ffffff;
     border-radius: 4rem;
-    min-width: 10.25rem ;
-    height: 3.75rem;
+    min-width: 8rem ;
+    height: 3.25rem;
     border-width: 0;
     transition-duration: .3s;
     font-size: 15px;
