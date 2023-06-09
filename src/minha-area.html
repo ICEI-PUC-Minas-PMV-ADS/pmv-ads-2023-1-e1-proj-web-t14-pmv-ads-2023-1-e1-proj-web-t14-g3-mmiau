@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/script.js"></script> <!--retirado o js por enquanto-->
     <title>Minha área</title>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
 </head>
     <body>
         <header><!--Logo, Menu Nav-->
@@ -35,7 +35,7 @@
                 <div class="section-title">
                     <h2> <a href="#meu-perfil.html">Meu perfil</a> </h2>
                 </div>
-                <div class="section-content">
+                <div >
                    <p>Visualizar perfil, atualizar informações de conta, trocar senha</p>
             </div>
                 </div>
@@ -43,24 +43,36 @@
                     <div class="section-title">
                         <h2> <a href="#">Minhas reservas</a> </h2>
                     </div>
-                    <div class="section-content">
-                        <p>Visualizar os gatinhos reservados para adoção</p>
+                    <div>
+                        <p>
+                            Visualizar os gatinhos reservados para adoção
+                            <button id="exibir-reservas">⌵</button>
+                        </p>
+                        <div id="tela-reservas"></div>
                     </div>
                 </div>
                 <div class="section-container"> 
                     <div class="section-title">
                         <h2> <a href="#">Minhas adoções</a> </h2>
                     </div>
-                    <div class="section-content">
-                        <p>Visualizar os gatinhos adotados</p>
+                    <div>
+                        <p>
+                            Visualizar os gatinhos que você adotou
+                            <button id="exibir-adocoes">⌵</button>
+                        </p>
+                        <div id="tela-adocoes"></div>
                     </div>
                 </div>
                 <div class="section-container"> 
                     <div class="section-title">
                         <h2> <a href="meus-anuncios.html">Meus anúncios</a> </h2>
                     </div>
-                    <div class="section-content">
-                        <p>Visualizar os gatinhos que você disponibilizou para adoção</p>
+                    <div>
+                        <p>
+                            Visualizar os gatinhos que você disponibilizou para adoção 
+                            <button id="exibir-anuncios">⌵</button>
+                        </p>
+                        <div id="tela-anuncios"></div>
                     </div>
                 </div>
             </div>
@@ -70,6 +82,6 @@
         </aside>
         <footer> <!--Info autoria, direitos autorais, Contato, mapa do site, links, docs relacionados -->
             &copy; 2023. Todos os direitos reservados
-        </footer>        
+        </footer>
     </body>
 </html>
