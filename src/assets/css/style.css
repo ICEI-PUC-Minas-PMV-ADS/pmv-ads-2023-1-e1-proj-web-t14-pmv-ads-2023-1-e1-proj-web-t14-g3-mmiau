@@ -41,7 +41,6 @@ header > #logo {
     border: none;
     background: none;
     font-size: 30px;
-    font-weight: bold;
     padding: 0px 5px 0px 5px;
     cursor: pointer;
     display: none;
@@ -59,7 +58,7 @@ nav {
 nav > a {
     margin: 20px;
     justify-content: center;
-    font-size: 18px;
+    font-size: 15px;
     transition-duration: .2s;
 
 }
@@ -76,7 +75,7 @@ nav > a:hover {
     border-width: 0;
     color: black;
     transition-duration: .3s;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 
@@ -95,7 +94,7 @@ nav > a:hover {
     height: 3.75rem;
     border-width: 0;
     transition-duration: .3s;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .elipse-btn-dark:hover {
