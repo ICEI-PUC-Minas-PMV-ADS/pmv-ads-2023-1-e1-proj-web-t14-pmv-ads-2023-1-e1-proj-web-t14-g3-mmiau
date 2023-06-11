@@ -10,8 +10,7 @@
 
 <div align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.png" alt="Diagrama de Solução">
-  
-  Figura 01 - Diagrama de Solução
+  <p>Figura 01 - Diagrama de Solução</p>
 </div>
 
 ### A solução implementada conta com os seguintes módulos:
@@ -33,14 +32,14 @@ API RESTful: para comunicação entre front-end e back-end.
 
 <div align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Fluxo%20de%20Telas%20do%20Usuario.jpg">
-  Figura 02 - Fluxo do Usuário
+  <p>Figura 02 - Fluxo do Usuário</p>
 </div>
  
 ## Diagrama de Classes:
 
-<div align+"center">
+<div align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
-  Figura 03 - Diagrama de Classes
+  <p>Figura 03 - Diagrama de Classes</p>
 </div>
 
 ## Tecnologias Utilizadas:
