@@ -30,13 +30,18 @@ API RESTful: para comunicação entre front-end e back-end.
 
  ## Fluxo do Usuário:
 <p>   O fluxo do usuário foi estruturado para que as pessoas possam facilmente encontrar um gato para adotar ou anunciar e, ao mesmo tempo, entender o processo de adoção e interagir com o site. </p>
- <p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Fluxo%20de%20Telas%20do%20Usuario.jpg"> </p>
-  <p align="center"> Figura 02 - Fluxo do Usuário </p>
+
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Fluxo%20de%20Telas%20do%20Usuario.jpg">
+  Figura 02 - Fluxo do Usuário
+</div>
  
 ## Diagrama de Classes:
 
-<p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg"> </p>
- <p align="center"> Figura 03 - Diagrama de Classes </p>
+<div align+"center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
+  Figura 03 - Diagrama de Classes
+</div>
 
 ## Tecnologias Utilizadas:
  
