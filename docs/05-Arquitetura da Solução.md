@@ -50,7 +50,7 @@ API RESTful: para comunicação entre front-end e back-end.
 |Serviços web|`Github Pages` servidor web para hospedar o site|
 |Frameworks e bibliotecas|`Bootstrap` framework CSS que fornece componentes responsivos e estilos pré-definidos|
 |IDEs de desenvolvimento|`Visual Studio Code` para desenvolvimento do código|
-|Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto <br> `GIMP`e `Canva` para criação e edição de imagens <br> `Google Fonts` para as fontes utilizadas no site|
+|Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto <br> `GIMP` e `Canva` para criação e edição de imagens <br> `Google Fonts` para as fontes utilizadas no site|
 
 ## Hospedagem:
 
