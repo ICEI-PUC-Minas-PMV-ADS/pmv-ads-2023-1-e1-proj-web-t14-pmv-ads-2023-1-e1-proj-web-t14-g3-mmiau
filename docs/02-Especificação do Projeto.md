@@ -45,8 +45,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| Márcio |
 |RF-004|	O sistema gerencia a adoção de gatos, conforme etapas e regras de negócio pré-estabelecidos |ALTA|  Gustavo |
 |RF-005|	O sistema exibe gatos cadastrados conforme critérios de busca (localização, palavras-chave, status de adoção ou nenhum critério especificado) |ALTA| Vitor |
-|RF-006|	O sistema permite ao usuário realizar doação por meio de PIX |ALTA|
-|RF-007|	O sistema exibe histórico de doações	|ALTA| (Avaliar se será implementado) |
+|RF-006|	O sistema permite ao usuário realizar doação por meio de PIX |Baixa|    |
+|RF-007|	O sistema exibe histórico de doações	|ALTA| Baixa |
 |RF-008| O sistema exibe página de informações sobre o projeto, requisitos para adoção, cuidados com os gatos e suas necessidades |ALTA| Igor |
 
 
