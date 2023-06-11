@@ -8,7 +8,6 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 <img src="img/tela02.png">
 <img src="img/tela03.png">
 <img src="img/tela04.png">
-<img src="img/tela05.png">
 <img src="img/tela06.png">
 <img src="img/tela07.png">
 <img src="img/tela08.png">
