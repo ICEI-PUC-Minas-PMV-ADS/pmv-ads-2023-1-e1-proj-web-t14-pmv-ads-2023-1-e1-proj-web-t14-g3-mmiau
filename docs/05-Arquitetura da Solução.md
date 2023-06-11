@@ -52,7 +52,7 @@ API RESTful: para comunicação entre front-end e back-end.
 
  <h2> <strong> Hospedagem: </strong> </h2>
 
-O site será hospedado via GItHub Pages.
+O site será hospedado pelo GitHub Pages.
 
 > **Links Úteis**:
 >
