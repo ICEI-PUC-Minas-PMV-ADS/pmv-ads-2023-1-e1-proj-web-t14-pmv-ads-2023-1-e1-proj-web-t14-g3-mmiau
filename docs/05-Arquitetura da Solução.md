@@ -46,11 +46,11 @@ API RESTful: para comunicação entre front-end e back-end.
  
 |Descrição| Tecnologia |
 |---|---|
-|Linguagens de programação|	`HTML5` para a estruturação do conteúdo, `CSS3` para a estilização e layout, `JavaScript` para a programação de interações e funcionalidades do site|
+|Linguagens de programação|	`HTML5` para a estruturação do conteúdo <br> `CSS3` para a estilização e layout <br> `JavaScript` para a programação de interações e funcionalidades do site|
 |Serviços web|`Github Pages` servidor web para hospedar o site|
 |Frameworks e bibliotecas|`Bootstrap` framework CSS que fornece componentes responsivos e estilos pré-definidos|
 |IDEs de desenvolvimento|`Visual Studio Code` para desenvolvimento do código|
-|Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto, `GIMP`e `Canva` para criação e edição de imagens, `Google Fonts` para as fontes utilizadas no site|
+|Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto <br> `GIMP`e `Canva` para criação e edição de imagens <br> `Google Fonts` para as fontes utilizadas no site|
 
 ## Hospedagem:
 
