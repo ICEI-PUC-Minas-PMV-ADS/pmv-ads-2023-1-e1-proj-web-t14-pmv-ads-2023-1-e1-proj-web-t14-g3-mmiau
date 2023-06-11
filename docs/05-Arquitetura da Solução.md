@@ -50,10 +50,6 @@ API RESTful: para comunicação entre front-end e back-end.
 |IDEs de desenvolvimento|`Visual Studio Code` para desenvolvimento do código|
 |Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto, `GIMP`e `Canva` para criação e edição de imagens, `Google Fonts` para as fontes utilizadas no site|
 
-<p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Tecnologias.png"> </p>
- <p align="center"> Figura 04 - Tecnologias </p>
-
-
  <h2> <strong> Hospedagem: </strong> </h2>
 
 O site será hospedado via GItHub Pages.
