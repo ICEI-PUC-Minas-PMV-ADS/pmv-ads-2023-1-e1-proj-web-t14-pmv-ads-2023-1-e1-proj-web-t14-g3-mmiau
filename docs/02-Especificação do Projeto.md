@@ -50,7 +50,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| O sistema exibe página de informações sobre o projeto, requisitos para adoção, cuidados com os gatos e suas necessidades |ALTA| `Igor`|
 
 
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |
