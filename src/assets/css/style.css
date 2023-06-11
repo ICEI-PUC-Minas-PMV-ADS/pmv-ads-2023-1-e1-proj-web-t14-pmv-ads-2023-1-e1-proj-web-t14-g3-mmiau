@@ -160,6 +160,12 @@ form {
     display: flexbox;
 }
 
+.btnexpandir{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 
 aside { 
     flex: 1 1 200px;
