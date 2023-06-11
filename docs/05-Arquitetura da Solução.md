@@ -8,9 +8,11 @@
 
   Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.png" alt="Diagrama de Solução">
- 
-Figura 01 - Diagrama de Solução
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.png" alt="Diagrama de Solução">
+  
+  Figura 01 - Diagrama de Solução
+</div>
 
 ### A solução implementada conta com os seguintes módulos:
 
