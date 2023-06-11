@@ -48,8 +48,7 @@ API RESTful: para comunicação entre front-end e back-end.
 
  <h2> <strong> Hospedagem: </strong> </h2>
 
-GITHUB PAGES!!!!!
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site será hospedado via GItHub Pages.
 
 > **Links Úteis**:
 >
