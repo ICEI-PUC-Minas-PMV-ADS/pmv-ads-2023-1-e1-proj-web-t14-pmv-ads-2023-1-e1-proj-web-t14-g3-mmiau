@@ -42,6 +42,14 @@ API RESTful: para comunicação entre front-end e back-end.
 
  <h2> <strong> Tecnologias Utilizadas: </strong> </h2>
  
+|Descrição| Tecnologia |
+|---|---|
+|Linguagens de programação|	
+                            - HTML, para a estruturação do conteúdo.
+                            - CSS, para a estilização e layout.
+                            - JavaScript,  para a programação de interações e funcionalidades do site.
+                          |
+
 <p align="center"> <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Tecnologias.png"> </p>
  <p align="center"> Figura 04 - Tecnologias </p>
 
