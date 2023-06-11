@@ -9,7 +9,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Caso de Teste: |CT001 – Validação de campos vazios no cadastro do gato|
 |------|-----------------------------------------|
 |Pré-Condições: |Estar na tela "Anunciar"|
-|Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar"|
+|Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar" <br> `2`teste|
 |Resultado esperado: |Mensagem de erro sinalizando os campos pendentes de preenchimento|
 |Dados de entrada: |Campo "Raça" vazio|
 |Resultado Obtido: |Mensagem de erro “Preencha este campo”  (RE=RO) |
