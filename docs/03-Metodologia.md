@@ -45,7 +45,7 @@ Para melhor gerenciamento das atualizações de código e documentação do proj
 |Descrição|Nome do Branch (responsáve)|
 |---|---|
 |Desenvolvimento do site (código e design)|`marcio` (Márcio)<br>`emile` (Emile)<br>`vitor` (Vitor)<br>`gustavo` (Gustavo)<br>`igor` (Igor)|
-|Documentação do projeto|`project-text` (toda a equipe)|
+|Documentação do projeto no repositório do GitHub|`project-text` (toda a equipe)|
 
 Obs: Caso haja outro branch neste respositório, o qual não esteja relacionado na tabela acima, ele pode ser ignorado.
 
