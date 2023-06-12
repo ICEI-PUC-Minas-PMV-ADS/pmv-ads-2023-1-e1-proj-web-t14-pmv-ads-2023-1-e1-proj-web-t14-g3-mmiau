@@ -1,74 +1,60 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+  Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+  Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
-Exemplo: 
+  Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+<div align="center">
+  <img src="img/diagrama_blocos.jpg" alt="Diagrama de blocos da solução">
+  <p>Figura 01 - Diagrama da Solução</p>
+</div>
 
-<center><img src="https://user-images.githubusercontent.com/131212345/236988241-46534002-8945-4873-b833-1e4fcd5c4fb0.PNG"></center>
-<center>Figura XX - Arquitetura da Solução</center>
+### A solução implementada conta com os seguintes módulos:
 
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
-
-> **Links Úteis**:
+> <p> <strong> Client-side:</strong> HTML, CSS e JavaScript, que são as tecnologias básicas para construir a interface do site e suas funcionalidades. <break>
 >
-> - [Whimsical](https://whimsical.com/)
+> <strong> Server-side: </strong> Para o servidor, pode-se utilizar o Node.js, que é uma plataforma JavaScript que permite a construção de servidores web escaláveis e de alto desempenho. <break>
+>
+> <strong> Banco de dados: </strong> Para armazenar os dados do site, pode-se utilizar o MySQL, PostgreSQL ou MongoDB, que são bancos de dados populares e acessíveis. <break>
+>
+> <strong> API's: </strong>
+APIs de redes sociais: como a API do Facebook, Twitter e Instagram. <break>
+APIs de e-mail: como o serviço de e-mails da Google (Gmail) ou Microsoft (Outlook). <break>
+API RESTful: para comunicação entre front-end e back-end.
+</p>
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+ ## Fluxo do Usuário:
+<p>   O fluxo do usuário foi estruturado para que as pessoas possam facilmente encontrar um gato para adotar ou anunciar e, ao mesmo tempo, entender o processo de adoção e interagir com o site. </p>
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/Fluxo%20de%20Telas%20do%20Usuario.jpg">
+  <p>Figura 02 - Fluxo do Usuário</p>
+</div>
+ 
+## Diagrama de Classes:
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+<div align="center">
+  <img src="img/diagrama-classes.jpg" alt="Diagrama de classes">
+  <p>Figura 03 - Diagrama de Classes</p>
+</div>
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+## Tecnologias Utilizadas:
+ 
+|Descrição| Tecnologia |
+|---|---|
+|Linguagens de programação|	`HTML5` para a estruturação do conteúdo <br> `CSS3` para a estilização e layout <br> `JavaScript` para a programação de interações e funcionalidades do site|
+|Serviços web|`Github Pages` servidor web para hospedar o site|
+|Frameworks e bibliotecas|`Bootstrap` framework CSS que fornece componentes responsivos e estilos pré-definidos|
+|IDEs de desenvolvimento|`Visual Studio Code` para desenvolvimento do código|
+|Ferramentas|`Git e Github (desktop e WEB)` para versionamento e documentação do projeto <br> `GIMP` e `Canva` para criação e edição de imagens <br> `Google Fonts` para as fontes utilizadas no site|
 
-## Diagrama de classes
+## Hospedagem:
 
-<img src="https://user-images.githubusercontent.com/131212345/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
-
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-
-## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site será hospedado pelo GitHub Pages.
 
 > **Links Úteis**:
 >

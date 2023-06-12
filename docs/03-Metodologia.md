@@ -13,7 +13,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 | --- | --- | --- |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
 | Documentos do projeto | Google Drive | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
-| Projeto de Inteface e Wireframes | MarvelApp <br /> Figma | Em desenvolvimento |
+| Projeto de Inteface e Wireframes | Miro | https://miro.com/app/board/uXjVMONYDIA=/|
 | Gerenciamento do Projeto | Trello | https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau |
 
 
@@ -39,4 +39,15 @@ A visualização completa do kanban criado pela equipe, na ferramenta de gerenci
 A imagem a seguir mostra o quadro em seu estado atual:
 
 ![kanban_trello](https://user-images.githubusercontent.com/44280078/233848258-f87db172-cac7-4679-a21a-2db8bad9c570.png)
+
+Para melhor gerenciamento das atualizações de código e documentação do projeto, a equipe optou por criar os seguintes "branches":
+
+|Descrição|Nome do Branch (responsáve)|
+|---|---|
+|Desenvolvimento do site (código e design)|`marcio` (Márcio)<br>`emile` (Emile)<br>`vitor` (Vitor)<br>`gustavo` (Gustavo)<br>`igor` (Igor)|
+|Documentação do projeto no repositório do GitHub|`project-text` (toda a equipe)|
+
+Obs: Caso haja outro branch neste respositório, o qual não esteja relacionado na tabela acima, ele pode ser ignorado.
+
+
 
