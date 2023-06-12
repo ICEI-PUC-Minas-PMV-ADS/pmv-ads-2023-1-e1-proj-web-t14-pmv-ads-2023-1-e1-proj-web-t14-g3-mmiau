@@ -38,7 +38,7 @@ API RESTful: para comunicação entre front-end e back-end.
 ## Diagrama de Classes:
 
 <div align="center">
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau/blob/project-text/docs/img/236987970-d373b4e3-652e-4180-a2c5-463b06a7f9b5.jpg">
+  <img src="img/diagrama-classes.jpg" alt="Diagrama de classes">
   <p>Figura 03 - Diagrama de Classes</p>
 </div>
 
