@@ -6,7 +6,7 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-|Caso de Teste: |CT-001 – Validação de campos vazios no cadastro do gato|
+|Caso de Teste: |CT-001 – Validação de campo vazio no cadastro do gato|
 |------|-----------------------------------------|
 |Pré-Condições: |Estar na tela "Anunciar"|
 |Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar"|
