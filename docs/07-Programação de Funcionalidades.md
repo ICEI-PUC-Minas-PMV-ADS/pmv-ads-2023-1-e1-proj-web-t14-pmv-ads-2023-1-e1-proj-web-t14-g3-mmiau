@@ -25,6 +25,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador e resgatá-los para exibir em *"Meus anúncios"*.
 
 **Estruturas de dados:**
+
 `LocalStorage`: Os dados dos gatos cadastrados são armazenados no LocalStorage do navegador.
 
 **Instruções de acesso:**
@@ -33,7 +34,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
      - Preencha todos os campos do formulário com as informações do gato que deseja cadastrar.
      - Clique no botão "Anunciar" para enviar o formulário.
      - Os dados do gato serão armazenados no LocalStorage.
-     
+
 2. **Visualizar Gatos Cadastrados (Seção "Meus Anúncios" na página "Minha Área")**: 
      - Acesse a página "Minha Área" (minha-area.html).
      - Role até a seção "Meus Anúncios".
