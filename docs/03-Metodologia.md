@@ -40,3 +40,14 @@ A imagem a seguir mostra o quadro em seu estado atual:
 
 ![kanban_trello](https://user-images.githubusercontent.com/44280078/233848258-f87db172-cac7-4679-a21a-2db8bad9c570.png)
 
+Para melhor gerenciamento das atualizações de código e documentação do projeto, a equipe optou por criar os seguintes "branches":
+
+|Descrição|Nome do Branch (responsáve)|
+|---|---|
+|Desenvolvimento do site (código e design)|`marcio` (Márcio)<br>`emile` (Emile)<br>`vitor` (Vitor)<br>`gustavo` (Gustavo)<br>`igor` (Igor)|
+|Documentação do projeto|`project-text` (toda a equipe)|
+
+Obs: Caso haja outro branch neste respositório, o qual não esteja relacionado na tabela acima, ele pode ser ignorado.
+
+
+
