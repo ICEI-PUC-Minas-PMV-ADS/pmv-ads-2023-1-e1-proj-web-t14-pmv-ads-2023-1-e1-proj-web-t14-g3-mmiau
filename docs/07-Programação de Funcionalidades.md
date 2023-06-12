@@ -12,7 +12,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| `Emile` |
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | Artefatos | Estruturas de dados | Instruções de acesso |
-|---|---|---|---|---|---|---|
+|:---|:---|:---|:---|:---|:---|:---|
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`| `anunciar.html`: Essa página contém um formulário de cadastro do gato. <br><br> `minha-area.html`: Essa página contém a seção *"Meus anúncios"*, onde o usuário visualiza os gatos cadastrados.<br><br> `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador e resgatá-los para exibir em *"Meus anúncios"*. | `LocalStorage`: Os dados dos gatos cadastrados são armazenados no LocalStorage do navegador.| 1. **Cadastrar Gatos**: - Acesse a página "Anunciar" (anunciar.html).<br> - Preencha todos os campos do formulário com as informações do gato que deseja cadastrar.<br> - Clique no botão "Anunciar" para enviar o formulário.<br> - Os dados do gato serão armazenados no LocalStorage.<br> 2. **Visualizar Gatos Cadastrados (Seção "Meus Anúncios" na página "Minha Área")**: <br> - Acesse a página "Minha Área" (minha-area.html).<br> - Role até a seção "Meus Anúncios".<br> - Clique no botão "Visualizar os gatinhos que você disponibilizou para adoção" para expandir a tabela.<br> - A tabela será preenchida com os gatos cadastrados, mostrando suas informações, como nome, sexo, idade, raça, castração, vacinação e foto.
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
