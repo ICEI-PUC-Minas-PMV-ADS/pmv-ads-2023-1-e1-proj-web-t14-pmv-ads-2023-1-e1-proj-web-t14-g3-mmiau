@@ -10,12 +10,28 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |---|---|---|---|
 |RF-001|O sistema gerencia o cadastro de usuários	|ALTA| `Emile`|
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| `Emile` |
+
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|---|---|---|---|
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`|
+
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|---|---|---|---|
 |RF-004|	O sistema gerencia a adoção de gatos, conforme etapas e regras de negócio pré-estabelecidos |ALTA|  `Gustavo`|
+
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|---|---|---|---|
 |RF-005|	O sistema exibe gatos cadastrados conforme critérios de busca (localização, palavras-chave, status de adoção ou nenhum critério especificado) |ALTA| `Vitor`|
+
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|---|---|---|---|
+|RF-008| O sistema exibe página de informações sobre o projeto, requisitos para adoção, cuidados com os gatos e suas necessidades |ALTA| `Igor`|
+
+Devido à prioridade baixa, os requisitos abaixo serão implementados apenas caso haja tempo hábil
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|---|---|---|---|
 |RF-006|	O sistema permite ao usuário realizar doação por meio de PIX |BAIXA|    |
 |RF-007|	O sistema exibe histórico de doações	|BAIXA|  |
-|RF-008| O sistema exibe página de informações sobre o projeto, requisitos para adoção, cuidados com os gatos e suas necessidades |ALTA| `Igor`|
 
 > **Links Úteis**:
 >
