@@ -23,7 +23,8 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 - `anunciar.html`: Essa página contém um formulário de cadastro do gato.
 - `minha-area.html`: Essa página contém a seção *"Meus anúncios"*, onde o usuário visualiza os gatos cadastrados.
-- `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador e resgatá-los para exibir em *"Meus anúncios"*.
+- `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador.
+- `minha-area.js`: Esse script contém a lógica para para resgatar os dados dos gatos cadastrados, armazenados no LocalStorage, e exibí-los na seção *"Meus Anúncios"* da página *"Minha Área"*.
 
 ### Estruturas de dados:
 
