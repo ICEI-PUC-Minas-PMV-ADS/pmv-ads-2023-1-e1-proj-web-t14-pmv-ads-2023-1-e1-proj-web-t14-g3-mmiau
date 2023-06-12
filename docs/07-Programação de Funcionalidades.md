@@ -12,11 +12,21 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| `Emile` |
 
 
-<mark>Requisitos:</mark>
-
 |ID    | Descrição do Requisito  | Prioridade | Responsável | 
 |---|---|---|---|
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`|
+
+~~~html
+teste
+~~~
+
+~~~css
+teste
+~~~
+
+~~~javascript
+teste
+~~~
 
 **Artefatos:**
 
