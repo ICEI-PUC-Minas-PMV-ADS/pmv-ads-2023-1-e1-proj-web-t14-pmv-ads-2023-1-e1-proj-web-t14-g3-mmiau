@@ -11,45 +11,35 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-001|O sistema gerencia o cadastro de usuários	|ALTA| `Emile`|
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| `Emile` |
 
+## RF-003
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável | 
 |---|---|---|---|
 |RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`|
 
-~~~html
-teste
-~~~
-
-~~~css
-teste
-~~~
-
-~~~javascript
-teste
-~~~
-
-**Artefatos:**
+### Artefatos:
 
 - `anunciar.html`: Essa página contém um formulário de cadastro do gato.
 - `minha-area.html`: Essa página contém a seção *"Meus anúncios"*, onde o usuário visualiza os gatos cadastrados.
 - `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador e resgatá-los para exibir em *"Meus anúncios"*.
 
-**Estruturas de dados:**
+### Estruturas de dados:
 
-`LocalStorage`: Os dados dos gatos cadastrados são armazenados no LocalStorage do navegador.
+- `LocalStorage`: Os dados dos gatos cadastrados são armazenados no LocalStorage do navegador.
 
-**Instruções de acesso:**
-1. **Cadastrar Gatos**: 
+### Instruções de acesso:
+
+1. **Cadastrar Gatos:** 
     - Acesse a página "Anunciar" (anunciar.html).
-     - Preencha todos os campos do formulário com as informações do gato que deseja cadastrar.
-     - Clique no botão "Anunciar" para enviar o formulário.
-     - Os dados do gato serão armazenados no LocalStorage.
+    - Preencha todos os campos do formulário com as informações do gato que deseja cadastrar.
+    - Clique no botão "Anunciar" para enviar o formulário.
+    - Os dados do gato serão armazenados no LocalStorage.
 
-2. **Visualizar Gatos Cadastrados (Seção "Meus Anúncios" na página "Minha Área")**: 
-     - Acesse a página "Minha Área" (minha-area.html).
-     - Role até a seção "Meus Anúncios".
-     - Clique no botão "Visualizar os gatinhos que você disponibilizou para adoção" para expandir a tabela.
-     - A tabela será preenchida com os gatos cadastrados, mostrando suas informações, como nome, sexo, idade, raça, castração, vacinação e foto.
+2. **Visualizar Gatos Cadastrados (Seção "Meus Anúncios" na página "Minha Área"):**
+    - Acesse a página "Minha Área" (minha-area.html).
+    - Role até a seção "Meus Anúncios".
+    - Clique no botão "Visualizar os gatinhos que você disponibilizou para adoção" para expandir a tabela.
+    - A tabela será preenchida com os gatos cadastrados, mostrando suas informações, como nome, sexo, idade, raça, castração, vacinação e foto.
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |---|---|---|---|
