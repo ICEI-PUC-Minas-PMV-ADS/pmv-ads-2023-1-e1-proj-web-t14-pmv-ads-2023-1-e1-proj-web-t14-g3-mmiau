@@ -18,7 +18,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 - Responsável pelo teste: Márcio
 - Avaliação: Passou no teste
 
-![CT-002](img/CT002.png)
+![CT-002](img/CT002.gif)
 
 ## Avaliação
 
