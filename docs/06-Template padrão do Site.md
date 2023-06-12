@@ -13,7 +13,7 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 <img src="img/tela08.png">
 <img src="img/tela09.png">
 
-*Nota*:
+>***Nota***:
 >O template padrão está sujeito a alterações conforme desenvolvimento do projeto
 
 
