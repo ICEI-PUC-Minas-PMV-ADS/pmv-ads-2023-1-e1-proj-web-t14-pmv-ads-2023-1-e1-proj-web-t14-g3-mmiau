@@ -6,12 +6,18 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## Resultados dos Casos de Teste (CT)
 
-### CT-001 - Validação de campos vazios no cadastro do gato
+### CT-001 - Validação de campo vazio no cadastro do gato
+
 - Responsável pelo teste: Márcio
+- Avaliação: Passou no teste
+
 ![CT-001](img/CT001.png)
 
 ### CT-002 - Responsividade do menu principal
+
 - Responsável pelo teste: Márcio
+- Avaliação: Passou no teste
+
 ![CT-002](img/CT002.png)
 
 ## Avaliação
