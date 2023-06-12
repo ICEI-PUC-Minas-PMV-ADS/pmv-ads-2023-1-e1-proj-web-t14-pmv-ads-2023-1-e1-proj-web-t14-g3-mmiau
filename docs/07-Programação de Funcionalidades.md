@@ -11,9 +11,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-001|O sistema gerencia o cadastro de usuários	|ALTA| `Emile`|
 |RF-002|	O sistema exibe usuários cadastrados     |ALTA| `Emile` |
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|---|---|---|---|
-|RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`|
+|ID    | Descrição do Requisito  | Prioridade | Responsável | Artefatos | Estruturas de dados | Instruções de acesso |
+|---|---|---|---|---|---|---|
+|RF-003|	O sistema gerencia o cadastro de gatos |ALTA| `Márcio`| `anunciar.html`: Essa página contém um formulário de cadastro do gato. <br> `minha-area.html`: Essa página contém a seção *"Meus anúncios"*, onde o usuário visualiza os gatos cadastrados.<br> `anunciar.js`: Esse script contém a lógica para capturar os dados do formulário, armazená-los no LocalStorage do navegador e resgatá-los para exibir em *"Meus anúncios"*.
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |---|---|---|---|
