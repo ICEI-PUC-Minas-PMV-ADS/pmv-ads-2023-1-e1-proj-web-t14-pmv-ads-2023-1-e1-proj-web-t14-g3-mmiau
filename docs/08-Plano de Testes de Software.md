@@ -10,9 +10,17 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |------|-----------------------------------------|
 |Pré-Condições: |Estar na tela "Anunciar"|
 |Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar"|
-|Resultado esperado: |Mensagem de erro sinalizando os campos pendentes de preenchimento|
+|Resultado esperado (RE): |Mensagem de erro sinalizando os campos pendentes de preenchimento|
 |Dados de entrada: |Campo "Raça" vazio|
-|Resultado Obtido: |Mensagem de erro “Preencha este campo”  (RE=RO) |
+|Resultado Obtido (RO): |Mensagem de erro “Selecione um item na lista.”  (RE=RO) |
+
+|Caso de Teste: |CT002 – Responsividade do menu principal|
+|------|-----------------------------------------|
+|Pré-Condições: |Estar em qualquer tela do site|
+|Procedimentos: |`1` O ator deve reduzir o tamanho da tela ou acesssar o site de um dispositivo com resolução de tela menor (smartphone, tablet), de tal forma que o menu principal não caiba expandido na tela. <br> `2`Para acessar novamente o menu principal, o ator deverá clicar no ícone "" que será exibido no canto superior direito da tela.|
+|Resultado esperado (RE): |O menu principal deve se recolher à direita e expandir/retrair ao clicar no ícone  |
+|Dados de entrada: |    |
+|Resultado Obtido (RO): |Mensagem de erro “Selecione um item na lista.”  (RE=RO) |
  
 ## Ferramentas de Testes (Opcional)
 
