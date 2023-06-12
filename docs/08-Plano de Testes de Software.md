@@ -6,7 +6,7 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 
 Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
-|Caso de Teste: |CT001 – Validação de campos vazios no cadastro do gato|
+|Caso de Teste: |CT-001 – Validação de campos vazios no cadastro do gato|
 |------|-----------------------------------------|
 |Pré-Condições: |Estar na tela "Anunciar"|
 |Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar"|
@@ -14,9 +14,9 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Dados de entrada: |Campo "Raça" vazio|
 |Resultado Obtido (RO): |Mensagem de erro “Selecione um item na lista.”  (RE=RO) |
 
-|Caso de Teste: |CT002 – Responsividade do menu principal|
+|Caso de Teste: |CT-002 – Responsividade do menu principal|
 |------|-----------------------------------------|
-|Pré-Condições: |Estar em qualquer tela do site|
+|Pré-Condições: |Estar em qualquer tela do site, acessando de um dispositivo cuja resolução de tela seja inferior a 880px|
 |Procedimentos: |`1` O ator deve reduzir o tamanho da tela ou acesssar o site de um dispositivo com resolução de tela inferior a 880px (exemplos: smartphones, tablets) <br> `2`Para acessar novamente o menu principal, o ator deverá clicar no ícone "menu hambúrguer" que será exibido no canto superior direito da tela.<br>`3` Para retrair o menu, o ator deverá clicar sobre o ícone de "X" no canto superior direito da tela.|
 |Resultado esperado (RE): |O menu principal deve se recolher à direita, expandir ao clicar no ícone de "menu hambúrguer" e retrair-se ao clicar no ícone "X"|
 |Dados de entrada: |    |
