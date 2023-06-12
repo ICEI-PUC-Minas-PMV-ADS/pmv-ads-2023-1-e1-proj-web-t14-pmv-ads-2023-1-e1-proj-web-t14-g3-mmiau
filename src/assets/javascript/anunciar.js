@@ -1,5 +1,3 @@
-// anunciar.js
-
 document.getElementById('cadastro-gato').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio do formulário
   
