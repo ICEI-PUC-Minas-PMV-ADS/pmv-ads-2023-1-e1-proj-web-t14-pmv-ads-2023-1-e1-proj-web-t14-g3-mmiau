@@ -4,7 +4,7 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-## Resultados dos Casos de Teste (CT)
+## Evidências dos Casos de Teste (CT)
 
 ### CT-001 - Validação de campo vazio no cadastro do gato
 
