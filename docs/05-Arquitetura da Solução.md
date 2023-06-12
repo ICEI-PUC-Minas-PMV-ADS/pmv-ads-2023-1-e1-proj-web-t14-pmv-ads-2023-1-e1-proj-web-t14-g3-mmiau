@@ -8,7 +8,7 @@
 
   Os componentes que fazem parte da solução são apresentados na Figura 01.
 
-<div align="center" width="100px">
+<div align="center">
   <img src="img/diagrama_blocos.jpg" alt="Diagrama de blocos da solução">
   <p>Figura 01 - Diagrama da Solução</p>
 </div>
