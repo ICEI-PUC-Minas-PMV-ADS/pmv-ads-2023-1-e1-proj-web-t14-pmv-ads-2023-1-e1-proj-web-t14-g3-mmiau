@@ -13,7 +13,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 | --- | --- | --- |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
 | Documentos do projeto | Google Drive | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t14-pmv-ads-2023-1-e1-proj-web-t14-g3-mmiau |
-| Projeto de Inteface e Wireframes | MarvelApp <br /> Figma | Em desenvolvimento |
+| Projeto de Inteface e Wireframes | Miro | https://miro.com/app/board/uXjVMONYDIA=/|
 | Gerenciamento do Projeto | Trello | https://trello.com/invite/b/dSCt4wmG/ATTIf1261701843a803605ca99ef741597c849832AFD/meu-miau |
 
 
