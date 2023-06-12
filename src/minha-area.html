@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Minha área</title>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+    <script type="text/javascript" src="assets/javascript/minha-area.js"></script>
+</head>
+    <body>
+        <header><!--Logo, Menu Nav-->
+            <a href="index.html" id="logo"><img src="assets/images/meu-miau-logo.png" alt="meu-miau-logo" id="logo-img"></a>
+
+            <button id="openMenu">&#9776;</button> <!--botao de três traços representando o menu para quando ele não couber expandido na tela-->
+
+            <nav id="menu"> <!--id "menu" criado para conseguir manipular o menu com JS-->
+                <button id="closeMenu">&#10006</button> <!--botão formato X para fechar o menu-->            
+                <a href="adotar.html">Adotar</a>
+                <a href="anunciar.html">Anunciar</a>
+                <a href="doar.html">Doar</a>
+                <a href="manual-do-miau.html">Manual do Miau</a>
+                <a href="quem-somos.html">Quem somos</a>
+                <a href="minha-area.html">Minha área</a>
+                <a href="login.html"><button class="elipse-btn">Login</button></a>
+                <a href="cadastrar.html"><button class="elipse-btn-dark">Cadastre-se</button></a>
+            </nav> 
+        </header>  
+        <main> <!--Conteúdo principal da página-->
+            <div class="main-title">
+                <h1>Minha área</h1>
+            </div>
+            <div class="section-container">                
+                <div class="section-title">
+                    <h2> <a href="#meu-perfil.html">Meu perfil</a> </h2>
+                </div>
+                <div >
+                   <p>Visualizar perfil, atualizar informações de conta, trocar senha</p>
+            </div>
+                </div>
+                <div class="section-container"> 
+                    <div class="section-title">
+                        <h2> <a href="#">Minhas reservas</a> </h2>
+                    </div>
+                    <div>
+                        <p>
+                            Visualizar os gatinhos reservados para adoção
+                            <button class="btnexpandir" id="exibir-reservas">⌵</button>
+                        </p>
+                        <div id="tela-reservas"></div>
+                    </div>
+                </div>
+                <div class="section-container"> 
+                    <div class="section-title">
+                        <h2> <a href="#">Minhas adoções</a> </h2>
+                    </div>
+                    <div>
+                        <p>
+                            Visualizar os gatinhos que você adotou
+                            <button class="btnexpandir" id="exibir-adocoes">⌵</button>
+                        </p>
+                        <div id="tela-adocoes"></div>
+                    </div>
+                </div>
+                <div class="section-container"> 
+                    <div class="section-title">
+                        <h2>Meus anúncios</h2>
+                    </div>
+                    <div>                      
+                        <button class="btnexpandir" id="exibir-anuncios">Visualizar os gatinhos que você disponibilizou para adoção ⌵</button>
+                        <div id="tela-anuncios"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside> <!--info e links "laterais" relacionados ao conteudo principal-->
+            
+        </aside>
+        <footer> <!--Info autoria, direitos autorais, Contato, mapa do site, links, docs relacionados -->
+            &copy; 2023. Todos os direitos reservados
+        </footer>
+    </body>
+</html>
