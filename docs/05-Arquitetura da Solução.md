@@ -9,8 +9,8 @@
   Os componentes que fazem parte da solução são apresentados na Figura 01.
 
 <div align="center">
-  [![Diagrama de componentes da solução](img/diagrama_blocos.jpg)]
-  <p>Figura 01 - Diagrama de Solução</p>
+  <img src="img/diagrama_blocos.jpg" alt="Diagrama de blocos da solução">
+  <p>Figura 01 - Diagrama da Solução</p>
 </div>
 
 ### A solução implementada conta com os seguintes módulos:
