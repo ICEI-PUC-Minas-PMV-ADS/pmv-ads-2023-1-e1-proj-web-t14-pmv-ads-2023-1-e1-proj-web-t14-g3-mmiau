@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     // ABRIR E FECHAR O MENU
-    
     openMenu.addEventListener('click', () => {
       menu.style.display = 'flex';
       menu.style.right = (menu.clientWidth * -1) + 'px';

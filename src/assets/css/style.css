@@ -6,6 +6,13 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+:root{
+    --color1:#5E412F;
+    --color2:#FCEBB6;
+    --color3:#78C0A8;
+    --color4:#F07818;
+    --color5:#F0A830;
+}
 
 header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
     display: flex;
@@ -39,17 +46,6 @@ header > #logo {
 #logo-img{
     width: 175px;
     height: auto;
-}
-
-
-#openMenu, #closeMenu {
-    border: none;
-    background: none;
-    font-size: 30px;
-    padding: 0px 5px 0px 5px;
-    cursor: pointer;
-    display: none;
-
 }
 
 nav {
@@ -252,23 +248,6 @@ footer {
         border-left: none;
         margin-right: 0;
     }
-}
-
-@media only screen and (max-width: 880px){ /*implementando regra para recolher menu quando não couber na tela*/
-    #openMenu, #closeMenu{
-        display: block;
-
-    }
-
-    #openMenu {
-        margin-left: auto;
-    }
-
-    #closeMenu {
-        position: fixed;
-        right: 15px;
-        top: 15px;
-    }
 
     nav {
         position: fixed;
@@ -298,4 +277,31 @@ footer {
         align-items: center;
 
     }
+}
+
+/* MENU */
+
+ .menu {
+    display: none; /* oculta o menu por padrão */
+}
+.menu.active {
+    display: block; /* exibe o menu quando ativado */    
+}
+/* Estilos CSS para o botão de expansão */
+.menu-button {
+    cursor: pointer;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: #8c8c8c;
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: bold;
+   
+    border: none;
+    border-radius: 8px;
+    
+    padding: 0px 5px;
 }
