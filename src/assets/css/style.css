@@ -255,6 +255,10 @@ input, select {
     height: 100px;
 }
 
+.card-foto img{
+    border-radius: 1.25rem;
+}
+
 .card-texto{
     margin: 10px;
     margin-left: 40px;
@@ -268,7 +272,7 @@ input, select {
 
 .card-texto li{
     list-style-type: none;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 form {
