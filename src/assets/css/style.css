@@ -202,13 +202,73 @@ input, select {
     margin-top: 20px;
 }
 
+#texto-apresentacao p{
+    padding-bottom: 20px;
+}
+
+#btn-quero-adotar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 15px;
+    background-color: #f0a830;
+    color: 000;
+    border-radius: 4rem;
+    min-width: 8rem ;
+    height: 3.25rem;
+
+}
+#btn-quero-adotar:hover{
+    background-color: #5e412f;
+    color: #fff;
+    cursor: pointer;
+
+}
 .cat-card {
     margin: 10px;
+    padding: 10px;
     background-color: #a1a1a15d;
     border-radius: 1.25rem;
     width: 200px;
     height: 300px;
-    background-color: #6cd9d460;
+    background-color: #6CD9D3;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-titulo{
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+    width: 160px;
+    height: 20px;
+    text-align: center;
+}
+
+.card-foto{
+    margin: 10px;
+    width: 160px;
+    height: 100px;
+}
+
+.card-texto{
+    margin: 10px;
+    margin-left: 40px;
+    width: 100px;
+
+}
+
+.card-texto ul{
+    text-align: center;
+}
+
+.card-texto li{
+    list-style-type: none;
+    padding-bottom: 5px;
 }
 
 form {
@@ -220,7 +280,6 @@ form {
     border: none;
     cursor: pointer;
 }
-
 
 aside { 
     flex: 1 1 200px;
