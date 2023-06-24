@@ -1,0 +1,37 @@
+.btnexpandir{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cartoes-anuncios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cartao-anuncio {
+  width: 200px;
+  background-color:#6CD9D3;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.cartao-anuncio img {
+    margin: 0 auto;
+    display: block;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.cartao-anuncio .info {
+  font-size: 14px;
+}
+
+.cartao-anuncio .info span {
+  font-weight: bold;
+}
+
+.cartao-anuncio .info p {
+  margin-bottom: 4px;
+}

@@ -202,6 +202,11 @@ input, select {
     margin-top: 20px;
 }
 
+.center{
+    display:flex; 
+    justify-content: center;
+}
+
 #texto-apresentacao p{
     padding-bottom: 20px;
 }
@@ -212,7 +217,7 @@ input, select {
     align-items: center;
     width: 100px;
     height: 15px;
-    background-color: #f0a830;
+    background-color:#6CD9D3;
     color: 000;
     border-radius: 4rem;
     min-width: 8rem ;
@@ -220,19 +225,17 @@ input, select {
 
 }
 #btn-quero-adotar:hover{
-    background-color: #5e412f;
-    color: #fff;
     cursor: pointer;
-
+    background-color: #ffdd1b;
 }
+
 .cat-card {
     margin: 10px;
     padding: 10px;
-    background-color: #a1a1a15d;
+    background-color: #6CD9D3;
     border-radius: 1.25rem;
     width: 200px;
     height: 300px;
-    background-color: #6CD9D3;
     display: block;
     text-align: center;
     align-items: center;
@@ -277,12 +280,6 @@ input, select {
 
 form {
     display: flexbox;
-}
-
-.btnexpandir{
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
 }
 
 aside { 
