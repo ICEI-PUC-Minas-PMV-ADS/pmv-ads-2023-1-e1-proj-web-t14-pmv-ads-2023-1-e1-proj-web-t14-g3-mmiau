@@ -48,13 +48,13 @@ header > #logo {
     height: auto;
 }
 
-nav {
+/* nav {
     flex: 1 1 100vw;
     background-color: #6CD9D3;
     align-items: center;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 nav > a {
     margin: 20px;
@@ -88,8 +88,9 @@ nav > a:hover {
 }
 
 .elipse-btn-dark {
-    background-color: #200e03;
-    color: #ffffff;
+    color:white;
+    background-color: #100145;
+
     border-radius: 4rem;
     min-width: 8rem ;
     height: 3.25rem;
@@ -99,7 +100,8 @@ nav > a:hover {
 }
 
 .elipse-btn-dark:hover {
-    background-color: rgba(126, 50, 4, 0.8);
+    background-color: rgb(0, 0, 0);
+    color: white;
     cursor: pointer;
 }
 
@@ -137,7 +139,7 @@ main {
     text-align: start; 
 }
 
-.section-content {    
+.cards-container {    
     margin: 3px;
     padding: 3px;    
     display: inline-flex;
@@ -206,6 +208,7 @@ input, select {
     height: 300px;
     background-color: #6cd9d460;
 }
+
 
 form {
     display: flexbox;
@@ -281,11 +284,13 @@ footer {
 
 /* MENU */
 
- .menu {
+.menu {
     display: none; /* oculta o menu por padrão */
+    position: relative;
 }
 .menu.active {
-    display: block; /* exibe o menu quando ativado */    
+    display: inline; /* exibe o menu quando ativado */ 
+    margin: 25px;
 }
 /* Estilos CSS para o botão de expansão */
 .menu-button {
@@ -294,6 +299,7 @@ footer {
     margin-top: auto;
     margin-bottom: auto;
 
+    background: none;
     background-color: #8c8c8c;
     color: #fff;
 
@@ -304,4 +310,97 @@ footer {
     border-radius: 8px;
     
     padding: 0px 5px;
+
+    position: absolute;
+    top: 4.2%;
+    left: 95%;
+}
+
+/* login / signIn */
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 200px;
+    padding: 5px;
+  }
+
+  botao-cadastro {
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .caixa-formulario {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario {
+    width: 300px;
+    height: 300px;
+  }
+
+.info-wrapper{  
+    display: flex; /* exibe os containers em linha */
+    justify-content: space-around; /* centraliza horizontalmente */
+    
+  
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info{
+    background-color:#6cd9d460; /* cor de fundo do container */
+    
+    width: 50%; /* largura do container */
+    height: 200px; /* altura do container */
+    margin: 20px 10px ; /* margem horizontal para espaçamento entre os containers */
+    padding: 20px; /* espaçamento interno */ 
+    border-radius: 5px;
+}
+
+.informacoes-gato{
+        display: flex; /* exibe os containers em linha */
+}
+
+.PIX{
+        background-color: #6cd9d460; /* cor de fundo do container */
+    
+        width: 500px; /* largura do container */
+        height: auto; /* altura do container */
+        margin: 0 100px; /* margem horizontal para espaçamento entre os containers */
+        padding: 20px; /* espaçamento interno */ 
+        border-radius: 5px;
+
+        display: flex; /* exibe os containers em linha */
+        justify-content: center; /* centraliza horizontalmente */
+}
+
+ul {
+    list-style-position: inside;
+}
+
+img{
+    margin-right: 30px;
+}
+
+.info-gato{
+    list-style-position: outside;
+}
+
+.img-gato{
+    border-radius: 10%;
+    box-shadow: 3px 3px 1ex rgb(43, 43, 73);
 }

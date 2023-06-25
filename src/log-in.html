@@ -12,7 +12,7 @@
     <header><!--Logo, Menu Nav-->
         <a href="index.html" id="logo"><img src="assets/images/meu-miau-logo.png" alt="meu-miau-logo" id="logo-img"></a>
 
-        <nav class="menu"> <!--id "menu" criado para conseguir manipular o menu com JS-->          
+        <nav class="menu">       
             <a href="adotar.html">Adotar</a>
             <a href="anunciar.html">Anunciar</a>
             <a href="doar.html">Doar</a>
@@ -29,14 +29,19 @@
     <div class="caixa-formulario">
         <div class="formulario">
           <h1>Login</h1>
-          <form id="loginForm">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" required>
-        
-            <label for="password">Senha:</label>
-            <input type="password" id="password" required>
-        
-            <button type="submit">Entrar</button>
-          </form>
+            <form id="loginForm">
+                <ul>
+                <li>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                </li>
+                <li>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                </li>
+                <br>
+                <button class=" botao-cadastro" type="submit">Entrar</button>
+                </ul>
+            </form>
 </body>
 </html>

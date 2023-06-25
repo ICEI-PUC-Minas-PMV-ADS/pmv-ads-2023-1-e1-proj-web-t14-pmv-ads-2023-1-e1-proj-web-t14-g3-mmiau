@@ -24,18 +24,17 @@ function cadastrarUsuario(name, email, password) {
     });
   
   
-    // Função para realizar o login do usuário
-    function fazerLogin(email, password) {
-        // Obtém o objeto do usuário cadastrado
-        var name = JSON.parse(localStorage.getItem('userForm'));
+    // // Função para realizar o login do usuário
+    // function fazerLogin(email, password) {
+    //     // Obtém o objeto do usuário cadastrado
+    //     var name = JSON.parse(localStorage.getItem('loginForm'));
   
-        // Verifica se o usuário existe e se a senha está correta
-        if (email === email && password === password) {
-          alert('Login realizado com sucesso!');
-          return true;
-        }
-      }
+    //     // Verifica se o usuário existe e se a senha está correta
+    //     if (user_email === email && user_password === password) {
+    //       alert('Login realizado com sucesso!');
+    //       return true;
+    //     }
+    //   }
   
-      alert('E-mail ou senha inválidos!');
+    //   alert('E-mail ou senha inválidos!');
     }  );
-  
