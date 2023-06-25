@@ -285,12 +285,12 @@ footer {
 /* MENU */
 
 .menu {
-    display: none; /* oculta o menu por padrão */
-    position: relative;
-}
-.menu.active {
     display: inline; /* exibe o menu quando ativado */ 
     margin: 25px;
+}
+.menu.active {
+    display: none; /* oculta o menu por padrão */
+    position: relative;
 }
 /* Estilos CSS para o botão de expansão */
 .menu-button {
@@ -404,3 +404,4 @@ img{
     border-radius: 10%;
     box-shadow: 3px 3px 1ex rgb(43, 43, 73);
 }
+
