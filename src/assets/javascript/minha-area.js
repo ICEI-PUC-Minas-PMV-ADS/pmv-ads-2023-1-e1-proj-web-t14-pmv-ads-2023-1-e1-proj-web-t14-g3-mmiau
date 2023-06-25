@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } else {
                 var telaAnuncios = document.getElementById('tela-anuncios');
-                telaAnuncios.innerHTML = '<div style="width: 100%; height: 50px; display: flex; justify-content: center; align-items: center; background-color: #ffbb00b7; border-radius: 1.25rem"><p>Você não possui gatos cadastrados</p></div>'; // Mensagem de nenhum gato cadastrado
+                telaAnuncios.innerHTML = '<div id="telaAnunciosVazio"><p>Você não possui gatos cadastrados</p></div>'; // Mensagem de nenhum gato cadastrado
             }
         });
     });

@@ -148,60 +148,6 @@ main {
     justify-content: start;
 }
 
-form ul{    
-        display: flexbox;
-}
-
-form ul li{
-    list-style-type: none; 
-    padding: 2px;;   
-}
-
-input, select{
-    width: 200px;
-    height: 25px;
-}
-
-input, select {
-    border: 1px solid #6CD9D3;
-    border-radius: 0;
-}
-
-.label-form{
-    display: inline-block;
-    min-width: 90px;
-    text-align: end;
-}
-
-.file-select{
-    border: none;
-    width: auto;
-}
-
-.btn-form{
-    cursor:pointer;
-    background-color: #2196f3;
-    width: 80px;
-    height: 40px;
-    border: 1px solid #6CD9D3;
-    color: #fff;
-    transition-duration: .3s;
-    
-}
-
-.btn-form:hover{
-    background-color: #fff;
-    color: #6CD9D3;
-}
-
-.form-submit-area{
-    display: flex;
-    justify-content: start;
-    margin-left: 100px;;
-    gap: 10px;
-    margin-top: 20px;
-}
-
 .center{
     display:flex; 
     justify-content: center;
