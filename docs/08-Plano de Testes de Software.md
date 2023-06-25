@@ -12,7 +12,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Procedimentos: |`1` O ator deve preencher todos os campos e clicar no botão "Anunciar"|
 |Resultado esperado (RE): |Mensagem de erro sinalizando os campos pendentes de preenchimento|
 |Dados de entrada: |Campo "Raça" vazio|
-|Resultado Obtido (RO): |Mensagem de erro “Selecione um item na lista.”  (RE=RO) |
+|Resultado Obtido (RO): |Mensagem de erro “Selecione um item na lista.”  (RE = RO) |
 
 |Caso de Teste: |CT-002 – Responsividade do menu principal|
 |---|---|
@@ -20,7 +20,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Procedimentos: |`1` O ator deve reduzir o tamanho da tela ou acesssar o site de um dispositivo com resolução de tela inferior a 880px (exemplos: smartphones, tablets) <br> `2`Para acessar novamente o menu principal, o ator deverá clicar no ícone "menu hambúrguer" que será exibido no canto superior direito da tela.<br>`3` Para retrair o menu, o ator deverá clicar sobre o ícone de "X" no canto superior direito da tela.|
 |Resultado esperado (RE): |O menu principal deve se recolher à direita, expandir ao clicar no ícone de "menu hambúrguer" e retrair-se ao clicar no ícone "X"|
 |Dados de entrada: |Resolução de tela do usuário|
-|Resultado Obtido (RO): |Menu se retrai em telas de resolução inferiores a 880px, e é exibido e retraído ao cliclar nos respectivos ícones (RE=RO) |
+|Resultado Obtido (RO): |Menu se retrai em telas de resolução inferiores a 880px, e é exibido e retraído ao cliclar nos respectivos ícones (RE = RO) |
 
 |Caso de Teste: |CT-003 – Visualizar gatos anunciados na seção "Meus anúncios"|
 |---|---|
@@ -28,7 +28,7 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |Procedimentos: |`1` O ator deve descer até a seção "Meus anúncios" e clicar no botão de seta para baixo para expandir a seção e visualizar os gatos cadastrados|
 |Resultado esperado (RE): |Exibição de "cards" dos gatos cadastrados pelo usuário ou mensagem informando que não possui gatos cadastrados|
 |Dados de entrada: |Dados dos gatos cadastrados no localStorage|
-|Resultado Obtido (RO): |Exibiu os gatos cadastrados e mensagem informando que não possui gatos cadastrados (RE=RO) |
+|Resultado Obtido (RO): |`a`Mensagem informando que não possui gatos cadastrados (RE = RO) <br> `b`Exibiu os gatos cadastrados, porém não mostrou a foto (RE ≠ RO)|
  
 ## Ferramentas de Testes (Opcional)
 
