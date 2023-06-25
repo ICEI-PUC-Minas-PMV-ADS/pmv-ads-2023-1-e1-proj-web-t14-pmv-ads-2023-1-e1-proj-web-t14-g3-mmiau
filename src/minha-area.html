@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/minha-area.css">
     <title>Minha área</title>
     <script type="text/javascript" src="assets/javascript/script.js"></script>
     <script type="text/javascript" src="assets/javascript/minha-area.js"></script>
@@ -18,11 +19,11 @@
 
             <nav id="menu"> <!--id "menu" criado para conseguir manipular o menu com JS-->
                 <button id="closeMenu">&#10006</button> <!--botão formato X para fechar o menu-->            
-                <a href="adotar.html">Adotar</a>
+                <a href="#adotar.html">Adotar</a>
                 <a href="anunciar.html">Anunciar</a>
-                <a href="doar.html">Doar</a>
-                <a href="manual-do-miau.html">Manual do Miau</a>
-                <a href="quem-somos.html">Quem somos</a>
+                <a href="#doar.html">Doar</a>
+                <a href="#manual-do-miau.html">Manual do Miau</a>
+                <a href="#quem-somos.html">Quem somos</a>
                 <a href="minha-area.html">Minha área</a>
                 <a href="login.html"><button class="elipse-btn">Login</button></a>
                 <a href="cadastrar.html"><button class="elipse-btn-dark">Cadastre-se</button></a>
@@ -69,8 +70,10 @@
                         <h2>Meus anúncios</h2>
                     </div>
                     <div>                      
-                        <button class="btnexpandir" id="exibir-anuncios">Visualizar os gatinhos que você disponibilizou para adoção ⌵</button>
-                        <div id="tela-anuncios"></div>
+                        Visualizar os gatinhos que você disponibilizou para adoção
+                        <button class="btnexpandir" id="exibirAnuncios">⌵</button>
+                        <br><br>
+                        <div id="tela-anuncios" class="cartoes-anuncios"></div>
                     </div>
                 </div>
             </div>
