@@ -23,7 +23,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ### CT-003 - Visualizar gatos anunciados na seção "Meus anúncios"
 
 - Responsável pelo teste: Márcio
-- Avaliação: Passou no teste
+- Avaliação: `a` Passou no teste / `b` Não passou no teste
 
 ![CT-003a](img/CT003a.gif)
 ![CT-003b](img/CT003b.gif)
