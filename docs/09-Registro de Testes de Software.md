@@ -20,6 +20,14 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![CT-002](img/CT002.gif)
 
+### CT-003 - Visualizar gatos anunciados na seção "Meus anúncios"
+
+- Responsável pelo teste: Márcio
+- Avaliação: `a` Passou no teste / `b` Não passou no teste
+
+![CT-003a](img/CT003a.gif)
+![CT-003b](img/CT003b.gif)
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
