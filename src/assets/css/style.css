@@ -5,6 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+:root{
+    --color1:#5E412F;
+    --color2:#FCEBB6;
+    --color3:#78C0A8;
+    --color4:#F07818;
+    --color5:#F0A830;
 }
 
 header, nav, main, aside, footer { /*Propriedades em comum agrupadas*/
@@ -41,24 +49,13 @@ header > #logo {
     height: auto;
 }
 
-
-#openMenu, #closeMenu {
-    border: none;
-    background: none;
-    font-size: 30px;
-    padding: 0px 5px 0px 5px;
-    cursor: pointer;
-    display: none;
-
-}
-
-nav {
+/* nav {
     flex: 1 1 100vw;
     background-color: #6CD9D3;
     align-items: center;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 nav > a {
     margin: 20px;
@@ -92,8 +89,9 @@ nav > a:hover {
 }
 
 .elipse-btn-dark {
-    background-color: #200e03;
-    color: #ffffff;
+    color:white;
+    background-color: #100145;
+
     border-radius: 4rem;
     min-width: 8rem ;
     height: 3.25rem;
@@ -103,7 +101,8 @@ nav > a:hover {
 }
 
 .elipse-btn-dark:hover {
-    background-color: rgba(126, 50, 4, 0.8);
+    background-color: rgb(0, 0, 0);
+    color: white;
     cursor: pointer;
 }
 
@@ -135,98 +134,92 @@ main {
     padding: 3%;
 }
 
+.section-content {
+    margin: 3px;
+    padding: 3px;
+    display: inline-flex;
+    justify-content: start;
+}
+
 .section-title {
     font-size: 18px;    
     margin: 3px;
     text-align: start; 
 }
 
-.section-content {    
+.cards-container {    
     margin: 3px;
     padding: 3px;    
     display: inline-flex;
     justify-content: start;
 }
 
-.center{
-    display:flex; 
-    justify-content: center;
+form ul{    
+        display: flexbox;
 }
 
-#texto-apresentacao p{
-    padding-bottom: 20px;
+form ul li{
+    list-style-type: none; 
+    padding: 2px;;   
 }
 
-#btn-quero-adotar{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 15px;
-    background-color:#6CD9D3;
-    color: 000;
-    border-radius: 4rem;
-    min-width: 8rem ;
-    height: 3.25rem;
-
-}
-#btn-quero-adotar:hover{
-    cursor: pointer;
-    background-color: #ffdd1b;
-}
-
-.cat-card {
-    margin: 10px;
-    padding: 10px;
-    background-color: #6CD9D3;
-    border-radius: 1.25rem;
+input, select{
     width: 200px;
-    height: 300px;
-    display: block;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
+    height: 25px;
 }
 
-.card-titulo{
-    font-weight: bold;
-    font-size: large;
-    margin: 10px;
-    width: 160px;
-    height: 20px;
-    text-align: center;
+input, select {
+    border: 1px solid #6CD9D3;
+    border-radius: 0;
 }
 
-.card-foto{
-    margin: 10px;
-    width: 160px;
-    height: 100px;
+.label-form{
+    display: inline-block;
+    min-width: 90px;
+    text-align: end;
 }
 
-.card-foto img{
-    border-radius: 1.25rem;
+.file-select{
+    border: none;
+    width: auto;
 }
 
-.card-texto{
-    margin: 10px;
-    margin-left: 40px;
-    width: 100px;
-
+.btn-form{
+    cursor:pointer;
+    background-color: #2196f3;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #6CD9D3;
+    color: #fff;
+    transition-duration: .3s;
+    
 }
 
-.card-texto ul{
-    text-align: center;
+.btn-form:hover{
+    background-color: #fff;
+    color: #6CD9D3;
 }
 
-.card-texto li{
-    list-style-type: none;
-    padding-bottom: 2px;
+.form-submit-area{
+    display: flex;
+    justify-content: start;
+    margin-left: 100px;;
+    gap: 10px;
+    margin-top: 20px;
 }
+
+
 
 form {
     display: flexbox;
 }
+
+.btnexpandir{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 
 aside { 
     flex: 1 1 200px;
@@ -258,23 +251,6 @@ footer {
         border-left: none;
         margin-right: 0;
     }
-}
-
-@media only screen and (max-width: 880px){ /*implementando regra para recolher menu quando não couber na tela*/
-    #openMenu, #closeMenu{
-        display: block;
-
-    }
-
-    #openMenu {
-        margin-left: auto;
-    }
-
-    #closeMenu {
-        position: fixed;
-        right: 15px;
-        top: 15px;
-    }
 
     nav {
         position: fixed;
@@ -304,4 +280,320 @@ footer {
         align-items: center;
 
     }
+}
+
+/* MENU */
+
+.menu {
+    display: inline; /* exibe o menu quando ativado */ 
+    margin: 25px;
+}
+.menu.active {
+    display: none; /* oculta o menu por padrão */
+    position: relative;
+}
+/* Estilos CSS para o botão de expansão */
+.menu-button {
+    cursor: pointer;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background: none;
+    background-color: #8c8c8c;
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: bold;
+   
+    border: none;
+    border-radius: 8px;
+    
+    padding: 0px 5px;
+
+    position: absolute;
+    top: 4.2%;
+    left: 95%;
+}
+
+/* login / signIn */
+  .signup-form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  login-form{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 200px;
+    padding: 5px;
+  }
+
+  botao-cadastro {
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 40px;
+  }
+
+  .caixa-formulario {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario {
+    width: 300px;
+    height: 300px;
+  }
+
+.info-wrapper{  
+    display: flex; /* exibe os containers em linha */
+    justify-content: space-around; /* centraliza horizontalmente */
+    
+  
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info{
+    background-color:#6cd9d460; /* cor de fundo do container */
+    
+    width: 50%; /* largura do container */
+    height: 200px; /* altura do container */
+    margin: 20px 10px ; /* margem horizontal para espaçamento entre os containers */
+    padding: 20px; /* espaçamento interno */ 
+    border-radius: 5px;
+}
+
+.informacoes-gato{
+        display: flex; /* exibe os containers em linha */
+}
+
+.PIX{
+        background-color: #6cd9d460; /* cor de fundo do container */
+    
+        width: 500px; /* largura do container */
+        height: auto; /* altura do container */
+        margin: 0 100px; /* margem horizontal para espaçamento entre os containers */
+        padding: 20px; /* espaçamento interno */ 
+        border-radius: 5px;
+
+        display: flex; /* exibe os containers em linha */
+        justify-content: center; /* centraliza horizontalmente */
+}
+
+ul {
+    list-style-position: inside;
+}
+
+img{
+    margin-right: 30px;
+}
+
+.info-gato{
+    list-style-position: outside;
+}
+
+.img-gato{
+    border-radius: 10%;
+    box-shadow: 3px 3px 1ex rgb(43, 43, 73);
+}
+
+#texto-apresentacao p{
+    padding-bottom: 20px;
+}
+
+#btn-quero-adotar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 15px;
+    background-color:#6CD9D3;
+    color: 000;
+    border-radius: 4rem;
+    min-width: 8rem ;
+    height: 3.25rem;
+
+}
+#btn-quero-adotar:hover{
+    cursor: pointer;
+    background-color: #ffdd1b;
+}
+
+.center{
+
+    display:flex;
+
+    justify-content: center;
+
+}
+
+
+
+
+#texto-apresentacao p{
+
+    padding-bottom: 20px;
+
+}
+
+
+
+
+#btn-quero-adotar{
+
+    display:flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100px;
+
+    height: 15px;
+
+    background-color:#6CD9D3;
+
+    color: 000;
+
+    border-radius: 4rem;
+
+    min-width: 8rem ;
+
+    height: 3.25rem;
+
+
+
+
+}
+
+#btn-quero-adotar:hover{
+
+    cursor: pointer;
+
+    background-color: #ffdd1b;
+
+}
+
+
+
+
+.cat-card {
+
+    margin: 10px;
+
+    padding: 10px;
+
+    background-color: #6CD9D3;
+
+    border-radius: 1.25rem;
+
+    width: 200px;
+
+    height: 300px;
+
+    display: block;
+
+    text-align: center;
+
+    align-items: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+
+.card-titulo{
+
+    font-weight: bold;
+
+    font-size: large;
+
+    margin: 10px;
+
+    width: 160px;
+
+    height: 20px;
+
+    text-align: center;
+
+}
+
+
+
+
+.card-foto{
+
+    margin: 10px;
+
+    width: 160px;
+
+    height: 100px;
+
+}
+
+
+
+
+.card-foto img{
+
+    border-radius: 1.25rem;
+
+}
+
+
+
+
+.card-texto{
+
+    margin: 10px;
+
+    margin-left: 40px;
+
+    width: 100px;
+
+
+
+
+}
+
+
+
+
+.card-texto ul{
+
+    text-align: center;
+
+}
+
+
+
+
+.card-texto li{
+
+    list-style-type: none;
+
+    padding-bottom: 2px;
+
 }

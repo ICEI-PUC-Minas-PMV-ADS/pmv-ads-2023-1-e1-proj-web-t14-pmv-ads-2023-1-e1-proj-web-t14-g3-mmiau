@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/script-cadastro.js"></script>
+    <script type="text/javascript" src="assets/javascript/script-menu.js"></script>
+    <title>Sign-In</title>
+</head>
+<header><!--Logo, Menu Nav-->
+    <a href="index.html" id="logo"><img src="assets/images/meu-miau-logo.png" alt="meu-miau-logo" id="logo-img"></a>
+
+    <nav class="menu"> <!--id "menu" criado para conseguir manipular o menu com JS-->          
+        <a href="adotar.html">Adotar</a>
+        <a href="anunciar.html">Anunciar</a>
+        <a href="doar.html">Doar</a>
+        <a href="manual-do-miau.html">Manual do Miau</a>
+        <a href="quem-somos.html">Quem somos</a>
+        <a href="minha-area.html">Minha área</a>
+        <a href="log-in.html"><button class="elipse-btn">Login</button></a>
+        <a href="sign-in.html"><button class="elipse-btn-dark">Cadastre-se</button></a>
+        </nav> 
+         
+        <div class="menu-button">&#9776;</div>
+</header> 
+
+<body>
+    <div class="caixa-formulario">
+        <div class="formulario">
+            <h1>Cadastro de Usuários</h1>
+      <form id="signup-form">
+        <ul>
+        <li>
+        <input type="text" id="signup-username" placeholder="Nome: " required>
+        </li>
+        <li>
+        <input type="email" id="signup-email" placeholder="Email: " required>
+        </li>
+        <li>
+        <input type="password" id="signup-password" placeholder="Senha: " required>
+        </li>
+        <br>
+        <button class=" botao-cadastro" type="submit">Entrar</button>
+        </ul>
+      </form>
+</body>
+</html>
