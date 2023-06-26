@@ -134,16 +134,11 @@ main {
     padding: 3%;
 }
 
-.section-content {    
-
+.section-content {
     margin: 3px;
-
-    padding: 3px;    
-
+    padding: 3px;
     display: inline-flex;
-
     justify-content: start;
-
 }
 
 .section-title {
